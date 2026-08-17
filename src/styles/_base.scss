@@ -1,0 +1,194 @@
+@font-face {
+  font-family: "Baikal Normal";
+  src: url("/fonts/baikal-normal-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Baikal Normal";
+  src: url("/fonts/baikal-normal-medium.woff2") format("woff2");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Baikal Normal";
+  src: url("/fonts/baikal-normal-semibold.woff2") format("woff2");
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Baikal Exp";
+  src: url("/fonts/baikal-expanded-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Baikal Exp";
+  src: url("/fonts/baikal-expanded-medium.woff2") format("woff2");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Baikal UltraExp";
+  src: url("/fonts/baikal-ultra-expanded-medium.woff2") format("woff2");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Baikal Cond";
+  src: url("/fonts/baikal-condensed-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Baikal Cond";
+  src: url("/fonts/baikal-condensed-semibold.woff2") format("woff2");
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Baikal ExtraCond";
+  src: url("/fonts/baikal-extra-condensed-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Baikal ExtraCond";
+  src: url("/fonts/baikal-extra-condensed-medium.woff2") format("woff2");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Baikal ExtraCond";
+  src: url("/fonts/baikal-extra-condensed-semibold.woff2") format("woff2");
+  font-weight: 600;
+  font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #000;
+  color: #fff;
+  font-family: "Baikal Normal", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+body[data-brand="health"] {
+  background: #f7f5ef;
+  color: #000;
+}
+
+button,
+a {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+button:focus-visible,
+a:focus-visible,
+summary:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 4px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+p,
+dl,
+dd {
+  margin: 0;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.index-page {
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
+  padding: 48px;
+  background: #e60000;
+  font-family: "Baikal Normal", sans-serif;
+
+  > div {
+    width: min(100%, 1120px);
+  }
+
+  > div > p {
+    margin-bottom: 40px;
+    font-size: 18px;
+  }
+
+  h1 {
+    max-width: 900px;
+    font-size: clamp(64px, 9vw, 132px);
+    font-weight: 600;
+    line-height: 0.88;
+    letter-spacing: -0.04em;
+  }
+
+  nav {
+    display: grid;
+    gap: 0;
+    margin-top: 80px;
+    border-top: 1px solid currentColor;
+  }
+
+  a {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid currentColor;
+    font-size: 24px;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 840px) {
+  .index-page {
+    padding: 24px 16px;
+
+    h1 {
+      font-size: clamp(48px, 17vw, 72px);
+    }
+  }
+}

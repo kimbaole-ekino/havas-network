@@ -1,0 +1,203 @@
+.creative {
+  font-family: var(--font-family-typography-baikal-normal);
+}
+
+.creative-hero {
+  position: relative;
+  height: 810px;
+  overflow: hidden;
+  background: #000;
+
+  &__media {
+    position: absolute;
+    inset: 0;
+    background:
+      linear-gradient(90deg, #000 0 28%, transparent 60%),
+      linear-gradient(0deg, #000 0%, transparent 45%),
+      url("/assets/creative/hero.png") 68% 42% / 850px auto no-repeat;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 72% 93%, 56% 84%, 28% 94%, 0 82%);
+    opacity: 0.82;
+  }
+
+  &__eyebrow {
+    position: absolute;
+    bottom: 56px;
+    left: 32px;
+    color: #808080;
+    font-size: 18px;
+  }
+}
+
+.creative-purpose {
+  min-height: 880px;
+  display: grid;
+  align-items: center;
+  padding-block: 180px;
+}
+
+.purpose-grid {
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+  gap: var(--dimension-layout-grid-laptop-gutter);
+
+  h1 {
+    max-width: 1080px;
+    margin-bottom: var(--dimension-spacing-scale-2xl);
+    font-size: var(--font-size-typography-84);
+    font-weight: 600;
+    line-height: var(--line-height-typography-92);
+    letter-spacing: -0.015em;
+  }
+
+  em {
+    color: var(--color-brand-primary);
+    font-style: normal;
+  }
+}
+
+.creative .work-section {
+  padding-top: 80px;
+}
+
+.creative .network-section {
+  padding-block: var(--dimension-spacing-module-desktop-large);
+}
+
+.creative .capabilities {
+  background:
+    radial-gradient(circle at 100% 100%, rgb(230 0 0 / 55%), transparent 38%),
+    linear-gradient(115deg, #e60000 0%, #9b0000 62%, #170000 100%);
+  color: #fff;
+
+  .section-intro p {
+    padding-top: 12px;
+  }
+}
+
+.accordion-list {
+  margin-top: var(--dimension-spacing-scale-5xl);
+
+  details {
+    border-top: 1px solid rgb(255 255 255 / 55%);
+  }
+
+  details:last-child {
+    border-bottom: 1px solid rgb(255 255 255 / 55%);
+  }
+
+  summary {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--dimension-spacing-scale-xl) 0;
+    font-size: var(--font-size-typography-24);
+    font-weight: 500;
+    cursor: pointer;
+    list-style: none;
+
+    &::after {
+      content: "+";
+    }
+  }
+
+  details[open] summary::after {
+    content: "−";
+  }
+
+  p {
+    max-width: 680px;
+    padding-bottom: var(--dimension-spacing-scale-xl);
+    color: rgb(255 255 255 / 80%);
+    font-size: var(--font-size-typography-18);
+    line-height: var(--line-height-typography-26);
+  }
+}
+
+.creative-cta {
+  min-height: 560px;
+  display: grid;
+  align-items: end;
+  padding: 80px 0;
+  background:
+    linear-gradient(90deg, rgb(230 0 0 / 98%), rgb(230 0 0 / 50%)),
+    url("/assets/creative/hero.png") center 35% / cover;
+  color: #fff;
+
+  .container {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+  }
+
+  h2 {
+    font-size: var(--font-size-typography-64);
+    font-weight: 600;
+    line-height: var(--line-height-typography-68);
+  }
+
+  .button-link + .button-link {
+    margin-left: 12px;
+  }
+}
+
+@media (max-width: 840px) {
+  .creative-hero {
+    height: 480px;
+
+    &__media {
+      background:
+        linear-gradient(90deg, #000 0 12%, transparent 75%),
+        linear-gradient(0deg, #000 0%, transparent 55%),
+        url("/assets/creative/hero.png") 54% 30% / auto 410px no-repeat;
+      clip-path: polygon(0 0, 100% 0, 100% 78%, 74% 92%, 50% 82%, 0 95%);
+    }
+
+    &__eyebrow {
+      bottom: 24px;
+      left: 16px;
+      font-size: 14px;
+    }
+  }
+
+  .creative-purpose {
+    min-height: 620px;
+    padding-block: var(--dimension-spacing-module-mobile-small);
+  }
+
+  .purpose-grid {
+    grid-template-columns: 1fr;
+    gap: var(--dimension-spacing-scale-xl);
+
+    h1 {
+      font-size: var(--font-size-typography-40);
+      line-height: var(--line-height-typography-44);
+    }
+  }
+
+  .creative .work-section {
+    padding-top: var(--dimension-spacing-module-mobile-small);
+  }
+
+  .creative .network-section {
+    padding-block: var(--dimension-spacing-module-mobile-small);
+  }
+
+  .creative-cta {
+    min-height: 460px;
+    padding: 48px 0;
+    background-position: 58% center;
+
+    .container {
+      display: grid;
+      gap: var(--dimension-spacing-scale-2xl);
+    }
+
+    h2 {
+      font-size: var(--font-size-typography-40);
+      line-height: var(--line-height-typography-44);
+    }
+
+    .button-link + .button-link {
+      margin: 12px 0 0;
+    }
+  }
+}

@@ -1,0 +1,305 @@
+.health {
+  font-family: var(--font-family-typography-baikal-normal);
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-family-typography-baikal-extra-condensed);
+    text-transform: uppercase;
+  }
+
+  .site-header {
+    color: #000;
+  }
+
+  .button-link {
+    min-height: 36px;
+    font-size: var(--font-size-typography-16);
+  }
+}
+
+.health-hero {
+  position: relative;
+  height: 900px;
+  overflow: hidden;
+  background: #fff;
+
+  > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 86%, 72% 100%, 0 100%);
+  }
+
+  &::after {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, rgb(0 0 0 / 68%) 0%, transparent 62%);
+    content: "";
+  }
+
+  &__copy {
+    position: absolute;
+    z-index: 2;
+    bottom: 110px;
+    left: max(32px, calc((100vw - 1144px) / 2));
+    max-width: 660px;
+    color: #fff;
+
+    h1 {
+      font-size: var(--font-size-typography-96);
+      font-weight: 600;
+      line-height: 0.82;
+    }
+
+    p {
+      max-width: 480px;
+      margin: var(--dimension-spacing-scale-lg) 0
+        var(--dimension-spacing-scale-2xl);
+      font-size: var(--font-size-typography-18);
+      line-height: var(--line-height-typography-26);
+    }
+  }
+}
+
+.health-purpose {
+  position: relative;
+  padding: 130px 0 190px;
+  background: var(--color-brand-primary);
+  color: #fff;
+  clip-path: polygon(0 0, 100% 0, 100% 74%, 78% 100%, 0 100%);
+
+  h2 {
+    max-width: 1040px;
+    font-size: var(--font-size-typography-84);
+    font-weight: 500;
+    line-height: 0.86;
+  }
+
+  h2 strong {
+    font-weight: 600;
+  }
+
+  p {
+    max-width: 720px;
+    margin-top: var(--dimension-spacing-scale-2xl);
+    font-size: var(--font-size-typography-18);
+    line-height: var(--line-height-typography-26);
+  }
+}
+
+.health-feature-row {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: var(--dimension-spacing-scale-6xl);
+  align-items: center;
+
+  .notched-image {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    clip-path: polygon(0 12%, 14% 0, 100% 0, 100% 88%, 86% 100%, 0 100%);
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  h2 {
+    margin-bottom: var(--dimension-spacing-scale-lg);
+    font-size: var(--font-size-typography-64);
+    font-weight: 600;
+    line-height: 0.9;
+  }
+
+  p {
+    max-width: 570px;
+    margin-bottom: var(--dimension-spacing-scale-2xl);
+    font-size: var(--font-size-typography-18);
+    line-height: var(--line-height-typography-26);
+  }
+}
+
+.angular-panel {
+  padding: var(--dimension-spacing-scale-4xl);
+  border: 2px solid var(--color-brand-primary);
+  clip-path: polygon(
+    18px 0,
+    100% 0,
+    100% calc(100% - 18px),
+    calc(100% - 18px) 100%,
+    0 100%,
+    0 18px
+  );
+
+  .section-intro {
+    margin-bottom: 0;
+  }
+}
+
+.health-editorial {
+  h2 {
+    margin-bottom: var(--dimension-spacing-scale-4xl);
+    font-size: var(--font-size-typography-48);
+    font-weight: 600;
+    line-height: var(--line-height-typography-52);
+  }
+}
+
+.health-story {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: var(--dimension-spacing-scale-4xl);
+  align-items: center;
+  margin-bottom: var(--dimension-spacing-module-desktop-regular);
+
+  &--reverse {
+    grid-template-columns: 0.8fr 1.2fr;
+
+    img {
+      grid-column: 2;
+    }
+
+    div {
+      grid-row: 1;
+      grid-column: 1;
+    }
+  }
+
+  img {
+    width: 100%;
+    aspect-ratio: 1.75;
+    object-fit: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 88%, 94% 100%, 0 100%);
+  }
+
+  h3 {
+    margin-bottom: var(--dimension-spacing-scale-lg);
+    font-size: var(--font-size-typography-48);
+    font-weight: 600;
+    line-height: 0.92;
+  }
+
+  p {
+    margin-bottom: var(--dimension-spacing-scale-2xl);
+    font-size: var(--font-size-typography-18);
+    line-height: var(--line-height-typography-26);
+  }
+}
+
+.health-cta {
+  padding: var(--dimension-spacing-scale-7xl) 0;
+  text-align: center;
+
+  h2 {
+    margin-bottom: var(--dimension-spacing-scale-2xl);
+    font-size: var(--font-size-typography-64);
+    font-weight: 600;
+    line-height: 0.9;
+  }
+}
+
+.health .site-footer {
+  color: var(--color-text-primary);
+}
+
+@media (max-width: 840px) {
+  .health-hero {
+    height: 540px;
+
+    > img {
+      clip-path: polygon(0 0, 100% 0, 100% 90%, 76% 100%, 0 100%);
+    }
+
+    &::after {
+      background: linear-gradient(0deg, rgb(0 0 0 / 76%) 0%, transparent 68%);
+    }
+
+    &__copy {
+      bottom: 40px;
+      left: 16px;
+      max-width: calc(100% - 32px);
+
+      h1 {
+        font-size: var(--font-size-typography-56);
+      }
+
+      p {
+        margin: var(--dimension-spacing-scale-md) 0
+          var(--dimension-spacing-scale-lg);
+        font-size: var(--font-size-typography-16);
+        line-height: var(--line-height-typography-24);
+      }
+    }
+  }
+
+  .health-purpose {
+    padding: var(--dimension-spacing-scale-4xl) 0
+      var(--dimension-spacing-scale-6xl);
+    clip-path: polygon(0 0, 100% 0, 100% 86%, 72% 100%, 0 100%);
+
+    h2 {
+      font-size: var(--font-size-typography-48);
+      line-height: 0.9;
+    }
+
+    p {
+      font-size: var(--font-size-typography-16);
+      line-height: var(--line-height-typography-24);
+    }
+  }
+
+  .health-feature-row,
+  .health-story,
+  .health-story--reverse {
+    grid-template-columns: 1fr;
+    gap: var(--dimension-spacing-scale-xl);
+  }
+
+  .health-feature-row {
+    .notched-image {
+      height: 410px;
+    }
+
+    h2 {
+      font-size: var(--font-size-typography-48);
+    }
+  }
+
+  .angular-panel {
+    padding: var(--dimension-spacing-scale-xl);
+  }
+
+  .health-story,
+  .health-story--reverse {
+    margin-bottom: var(--dimension-spacing-scale-4xl);
+
+    img,
+    div {
+      grid-row: auto;
+      grid-column: auto;
+    }
+
+    h3 {
+      font-size: var(--font-size-typography-40);
+    }
+  }
+
+  .health-story--reverse img {
+    order: 0;
+  }
+
+  .health-story--reverse div {
+    order: 1;
+  }
+
+  .health-cta {
+    padding: var(--dimension-spacing-scale-4xl) 0;
+
+    h2 {
+      font-size: var(--font-size-typography-40);
+    }
+  }
+}

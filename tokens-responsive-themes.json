@@ -1,0 +1,2774 @@
+{
+  "global": {
+    "color": {
+      "primitive": {
+        "accent": {
+          "azure-blue": {
+            "type": "color",
+            "value": "#328cf5",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-global-primitive-color-accent-azure-blue"
+              }
+            }
+          },
+          "cadmium-yellow": {
+            "type": "color",
+            "value": "#ffdc32",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-global-primitive-color-accent-cadmium-yellow"
+              }
+            }
+          },
+          "candy-pink": {
+            "type": "color",
+            "value": "#f055fa",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-global-primitive-color-accent-candy-pink"
+              }
+            }
+          },
+          "electric-purple": {
+            "type": "color",
+            "value": "#785afa",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-global-primitive-color-accent-electric-purple"
+              }
+            }
+          },
+          "seafoam": {
+            "type": "color",
+            "value": "#00dcb9",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-global-primitive-color-accent-seafoam"
+              }
+            }
+          },
+          "spring-green": {
+            "type": "color",
+            "value": "#aafa96",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-global-primitive-color-accent-spring-green"
+              }
+            }
+          }
+        },
+        "grey": {
+          "light": {
+            "type": "color",
+            "value": "#eeeeee",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-global-primitive-color-grey-light"
+              }
+            }
+          },
+          "over-black": {
+            "type": "color",
+            "value": "#808080",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-global-primitive-color-grey-over-black"
+              }
+            }
+          },
+          "over-white": {
+            "type": "color",
+            "value": "#666666",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-global-primitive-color-grey-over-white"
+              }
+            }
+          },
+          "soft-black": {
+            "type": "color",
+            "value": "#1a1a1a",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-global-primitive-color-grey-soft-black"
+              }
+            }
+          }
+        },
+        "primary": {
+          "black": {
+            "type": "color",
+            "value": "#000000",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-global-primitive-color-primary-black"
+              }
+            }
+          },
+          "havas-red": {
+            "type": "color",
+            "value": "#e60000",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-global-primitive-color-primary-havas-red"
+              }
+            }
+          },
+          "off-white": {
+            "type": "color",
+            "value": "#fffefa",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-global-primitive-color-primary-off-white"
+              }
+            }
+          },
+          "white": {
+            "type": "color",
+            "value": "#ffffff",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-global-primitive-color-primary-white"
+              }
+            }
+          }
+        },
+        "supporting": {
+          "blue": {
+            "dusk": {
+              "type": "color",
+              "value": "#008596",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-global-primitive-color-supporting-blue-dusk"
+                }
+              }
+            },
+            "light": {
+              "type": "color",
+              "value": "#9bf5fc",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-global-primitive-color-supporting-blue-light"
+                }
+              }
+            },
+            "navy": {
+              "type": "color",
+              "value": "#001c32",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-global-primitive-color-supporting-blue-navy"
+                }
+              }
+            },
+            "petrol": {
+              "type": "color",
+              "value": "#145566",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-global-primitive-color-supporting-blue-petrol"
+                }
+              }
+            },
+            "sky": {
+              "type": "color",
+              "value": "#69ebf8",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-global-primitive-color-supporting-blue-sky"
+                }
+              }
+            }
+          },
+          "red": {
+            "deep": {
+              "type": "color",
+              "value": "#280000",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-global-primitive-color-supporting-red-deep"
+                }
+              }
+            },
+            "light-pink": {
+              "type": "color",
+              "value": "#ffdcdc",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-global-primitive-color-supporting-red-light-pink"
+                }
+              }
+            },
+            "pink": {
+              "type": "color",
+              "value": "#ffbebe",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-global-primitive-color-supporting-red-pink"
+                }
+              }
+            },
+            "salmon": {
+              "type": "color",
+              "value": "#ff9696",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-global-primitive-color-supporting-red-salmon"
+                }
+              }
+            },
+            "scarlet": {
+              "type": "color",
+              "value": "#640000",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-global-primitive-color-supporting-red-scarlet"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "dimension": {
+      "primitive": {
+        "spacing": {
+          "2xl": {
+            "type": "dimension",
+            "value": "40px",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-global-primitive-dimension-spacing-2xl"
+              }
+            }
+          },
+          "3xl": {
+            "type": "dimension",
+            "value": "56px",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-global-primitive-dimension-spacing-3xl"
+              }
+            }
+          },
+          "4xl": {
+            "type": "dimension",
+            "value": "64px",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-global-primitive-dimension-spacing-4xl"
+              }
+            }
+          },
+          "5xl": {
+            "type": "dimension",
+            "value": "80px",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-global-primitive-dimension-spacing-5xl"
+              }
+            }
+          },
+          "6xl": {
+            "type": "dimension",
+            "value": "96px",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-global-primitive-dimension-spacing-6xl"
+              }
+            }
+          },
+          "7xl": {
+            "type": "dimension",
+            "value": "120px",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-global-primitive-dimension-spacing-7xl"
+              }
+            }
+          },
+          "8xl": {
+            "type": "dimension",
+            "value": "148px",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-global-primitive-dimension-spacing-8xl"
+              }
+            }
+          },
+          "lg": {
+            "type": "dimension",
+            "value": "20px",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-global-primitive-dimension-spacing-lg"
+              }
+            }
+          },
+          "md": {
+            "type": "dimension",
+            "value": "16px",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-global-primitive-dimension-spacing-md"
+              }
+            }
+          },
+          "sm": {
+            "type": "dimension",
+            "value": "8px",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-global-primitive-dimension-spacing-sm"
+              }
+            }
+          },
+          "xl": {
+            "type": "dimension",
+            "value": "32px",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-global-primitive-dimension-spacing-xl"
+              }
+            }
+          },
+          "xs": {
+            "type": "dimension",
+            "value": "4px",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-global-primitive-dimension-spacing-xs"
+              }
+            }
+          }
+        }
+      }
+    },
+    "fontFamily": {
+      "primitive": {
+        "baikal-condensed": {
+          "type": "fontFamily",
+          "value": "Baikal Cond",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-font-family-baikal-condensed"
+            }
+          }
+        },
+        "baikal-expanded": {
+          "type": "fontFamily",
+          "value": "Baikal Exp",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-font-family-baikal-expanded"
+            }
+          }
+        },
+        "baikal-extra-condensed": {
+          "type": "fontFamily",
+          "value": "Baikal ExtraCond",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-font-family-baikal-extra-condensed"
+            }
+          }
+        },
+        "baikal-normal": {
+          "type": "fontFamily",
+          "value": "Baikal Normal",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-font-family-baikal-normal"
+            }
+          }
+        },
+        "baikal-ultra-expanded": {
+          "type": "fontFamily",
+          "value": "Baikal UltraExp",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-font-family-baikal-ultra-expanded"
+            }
+          }
+        }
+      }
+    },
+    "fontSize": {
+      "primitive": {
+        "14": {
+          "type": "fontSize",
+          "value": "14px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-font-size-14"
+            }
+          }
+        },
+        "16": {
+          "type": "fontSize",
+          "value": "16px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-font-size-16"
+            }
+          }
+        },
+        "18": {
+          "type": "fontSize",
+          "value": "18px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-font-size-18"
+            }
+          }
+        },
+        "20": {
+          "type": "fontSize",
+          "value": "20px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-font-size-20"
+            }
+          }
+        },
+        "22": {
+          "type": "fontSize",
+          "value": "22px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-font-size-22"
+            }
+          }
+        },
+        "24": {
+          "type": "fontSize",
+          "value": "24px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-font-size-24"
+            }
+          }
+        },
+        "32": {
+          "type": "fontSize",
+          "value": "32px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-font-size-32"
+            }
+          }
+        },
+        "34": {
+          "type": "fontSize",
+          "value": "34px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-font-size-34"
+            }
+          }
+        },
+        "36": {
+          "type": "fontSize",
+          "value": "36px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-font-size-36"
+            }
+          }
+        },
+        "40": {
+          "type": "fontSize",
+          "value": "40px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-font-size-40"
+            }
+          }
+        },
+        "44": {
+          "type": "fontSize",
+          "value": "44px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-font-size-44"
+            }
+          }
+        },
+        "48": {
+          "type": "fontSize",
+          "value": "48px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-font-size-48"
+            }
+          }
+        },
+        "56": {
+          "type": "fontSize",
+          "value": "56px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-font-size-56"
+            }
+          }
+        },
+        "64": {
+          "type": "fontSize",
+          "value": "64px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-font-size-64"
+            }
+          }
+        },
+        "68": {
+          "type": "fontSize",
+          "value": "68px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-font-size-68"
+            }
+          }
+        },
+        "84": {
+          "type": "fontSize",
+          "value": "84px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-font-size-84"
+            }
+          }
+        },
+        "96": {
+          "type": "fontSize",
+          "value": "96px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-font-size-96"
+            }
+          }
+        },
+        "116": {
+          "type": "fontSize",
+          "value": "116px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-font-size-116"
+            }
+          }
+        }
+      }
+    },
+    "lineHeight": {
+      "primitive": {
+        "22": {
+          "type": "lineHeight",
+          "value": "22px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-line-height-22"
+            }
+          }
+        },
+        "24": {
+          "type": "lineHeight",
+          "value": "24px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-line-height-24"
+            }
+          }
+        },
+        "26": {
+          "type": "lineHeight",
+          "value": "26px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-line-height-26"
+            }
+          }
+        },
+        "28": {
+          "type": "lineHeight",
+          "value": "28px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-line-height-28"
+            }
+          }
+        },
+        "30": {
+          "type": "lineHeight",
+          "value": "30px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-line-height-30"
+            }
+          }
+        },
+        "32": {
+          "type": "lineHeight",
+          "value": "32px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-line-height-32"
+            }
+          }
+        },
+        "34": {
+          "type": "lineHeight",
+          "value": "34px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-line-height-34"
+            }
+          }
+        },
+        "40": {
+          "type": "lineHeight",
+          "value": "40px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-line-height-40"
+            }
+          }
+        },
+        "42": {
+          "type": "lineHeight",
+          "value": "42px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-line-height-42"
+            }
+          }
+        },
+        "44": {
+          "type": "lineHeight",
+          "value": "44px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-line-height-44"
+            }
+          }
+        },
+        "48": {
+          "type": "lineHeight",
+          "value": "48px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-line-height-48"
+            }
+          }
+        },
+        "50": {
+          "type": "lineHeight",
+          "value": "50px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-line-height-50"
+            }
+          }
+        },
+        "52": {
+          "type": "lineHeight",
+          "value": "52px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-line-height-52"
+            }
+          }
+        },
+        "58": {
+          "type": "lineHeight",
+          "value": "58px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-line-height-58"
+            }
+          }
+        },
+        "60": {
+          "type": "lineHeight",
+          "value": "60px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-line-height-60"
+            }
+          }
+        },
+        "68": {
+          "type": "lineHeight",
+          "value": "68px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-line-height-68"
+            }
+          }
+        },
+        "76": {
+          "type": "lineHeight",
+          "value": "76px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-line-height-76"
+            }
+          }
+        },
+        "86": {
+          "type": "lineHeight",
+          "value": "86px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-line-height-86"
+            }
+          }
+        },
+        "92": {
+          "type": "lineHeight",
+          "value": "92px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-line-height-92"
+            }
+          }
+        },
+        "100": {
+          "type": "lineHeight",
+          "value": "100px",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-global-primitive-dimension-line-height-100"
+            }
+          }
+        }
+      }
+    },
+    "number": {
+      "primitive": {
+        "letter-spacing": {
+          "default": {
+            "description": "Percentage value used by the audited Text Styles.",
+            "type": "number",
+            "value": 0,
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-global-primitive-number-letter-spacing-default"
+              }
+            }
+          },
+          "loose": {
+            "description": "Percentage value used by the audited Text Styles.",
+            "type": "number",
+            "value": 0.5,
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-global-primitive-number-letter-spacing-loose"
+              }
+            }
+          },
+          "tight": {
+            "description": "Percentage value used by the audited Text Styles.",
+            "type": "number",
+            "value": -0.5,
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-global-primitive-number-letter-spacing-tight"
+              }
+            }
+          }
+        }
+      }
+    },
+    "other": {
+      "primitive": {
+        "font": {
+          "style": {
+            "bold": {
+              "type": "other",
+              "value": "Bold",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-global-primitive-font-style-bold"
+                }
+              }
+            },
+            "light": {
+              "type": "other",
+              "value": "Light",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-global-primitive-font-style-light"
+                }
+              }
+            },
+            "medium": {
+              "type": "other",
+              "value": "Medium",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-global-primitive-font-style-medium"
+                }
+              }
+            },
+            "regular": {
+              "type": "other",
+              "value": "Regular",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-global-primitive-font-style-regular"
+                }
+              }
+            },
+            "semi-bold": {
+              "type": "other",
+              "value": "Semi Bold",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-global-primitive-font-style-semi-bold"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "core": {
+    "color": {
+      "brand": {
+        "primary": {
+          "type": "color",
+          "value": "{color.primitive.primary.havas-red}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-color-brand-primary"
+            }
+          }
+        }
+      }
+    },
+    "dimension": {
+      "layout": {
+        "base-grid": {
+          "type": "dimension",
+          "value": "{dimension.spacing.scale.xs}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-layout-base-grid"
+            }
+          }
+        },
+        "content": {
+          "max-width": {
+            "type": "dimension",
+            "value": "1440px",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-core-layout-content-max-width"
+              }
+            }
+          }
+        },
+        "grid": {
+          "laptop": {
+            "gutter": {
+              "type": "dimension",
+              "value": "32px",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-core-layout-grid-laptop-gutter"
+                }
+              }
+            },
+            "margin": {
+              "type": "dimension",
+              "value": "32px",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-core-layout-grid-laptop-margin"
+                }
+              }
+            },
+            "max-width": {
+              "type": "dimension",
+              "value": "1439px",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-core-layout-grid-laptop-max-width"
+                }
+              }
+            },
+            "min-width": {
+              "type": "dimension",
+              "value": "1320px",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-core-layout-grid-laptop-min-width"
+                }
+              }
+            }
+          },
+          "mobile": {
+            "gutter": {
+              "type": "dimension",
+              "value": "16px",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-core-layout-grid-mobile-gutter"
+                }
+              }
+            },
+            "margin": {
+              "type": "dimension",
+              "value": "16px",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-core-layout-grid-mobile-margin"
+                }
+              }
+            },
+            "max-width": {
+              "type": "dimension",
+              "value": "840px",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-core-layout-grid-mobile-max-width"
+                }
+              }
+            },
+            "min-width": {
+              "type": "dimension",
+              "value": "0px",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-core-layout-grid-mobile-min-width"
+                }
+              }
+            }
+          },
+          "tablet": {
+            "gutter": {
+              "type": "dimension",
+              "value": "24px",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-core-layout-grid-tablet-gutter"
+                }
+              }
+            },
+            "margin": {
+              "type": "dimension",
+              "value": "24px",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-core-layout-grid-tablet-margin"
+                }
+              }
+            },
+            "max-width": {
+              "type": "dimension",
+              "value": "1319px",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-core-layout-grid-tablet-max-width"
+                }
+              }
+            },
+            "min-width": {
+              "type": "dimension",
+              "value": "841px",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-core-layout-grid-tablet-min-width"
+                }
+              }
+            }
+          },
+          "widescreen": {
+            "gutter": {
+              "type": "dimension",
+              "value": "32px",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-core-layout-grid-widescreen-gutter"
+                }
+              }
+            },
+            "margin": {
+              "description": "Minimum margin; it grows beyond the 1440px content maximum.",
+              "type": "dimension",
+              "value": "32px",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-core-layout-grid-widescreen-margin"
+                }
+              }
+            },
+            "min-width": {
+              "type": "dimension",
+              "value": "1440px",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-core-layout-grid-widescreen-min-width"
+                }
+              }
+            }
+          }
+        }
+      },
+      "spacing": {
+        "module": {
+          "desktop": {
+            "extra-large": {
+              "type": "dimension",
+              "value": "232px",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-core-spacing-module-desktop-extra-large"
+                }
+              }
+            },
+            "large": {
+              "type": "dimension",
+              "value": "180px",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-core-spacing-module-desktop-large"
+                }
+              }
+            },
+            "regular": {
+              "type": "dimension",
+              "value": "{dimension.spacing.scale.8xl}",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-core-spacing-module-desktop-regular"
+                }
+              }
+            },
+            "small": {
+              "type": "dimension",
+              "value": "84px",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-core-spacing-module-desktop-small"
+                }
+              }
+            }
+          },
+          "mobile": {
+            "extra-small": {
+              "type": "dimension",
+              "value": "48px",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-core-spacing-module-mobile-extra-small"
+                }
+              }
+            },
+            "small": {
+              "type": "dimension",
+              "value": "{dimension.spacing.scale.4xl}",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-core-spacing-module-mobile-small"
+                }
+              }
+            }
+          }
+        },
+        "scale": {
+          "2xl": {
+            "type": "dimension",
+            "value": "{dimension.primitive.spacing.2xl}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-core-spacing-scale-2xl"
+              }
+            }
+          },
+          "3xl": {
+            "type": "dimension",
+            "value": "{dimension.primitive.spacing.3xl}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-core-spacing-scale-3xl"
+              }
+            }
+          },
+          "4xl": {
+            "type": "dimension",
+            "value": "{dimension.primitive.spacing.4xl}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-core-spacing-scale-4xl"
+              }
+            }
+          },
+          "5xl": {
+            "type": "dimension",
+            "value": "{dimension.primitive.spacing.5xl}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-core-spacing-scale-5xl"
+              }
+            }
+          },
+          "6xl": {
+            "type": "dimension",
+            "value": "{dimension.primitive.spacing.6xl}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-core-spacing-scale-6xl"
+              }
+            }
+          },
+          "7xl": {
+            "type": "dimension",
+            "value": "{dimension.primitive.spacing.7xl}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-core-spacing-scale-7xl"
+              }
+            }
+          },
+          "8xl": {
+            "type": "dimension",
+            "value": "{dimension.primitive.spacing.8xl}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-core-spacing-scale-8xl"
+              }
+            }
+          },
+          "lg": {
+            "type": "dimension",
+            "value": "{dimension.primitive.spacing.lg}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-core-spacing-scale-lg"
+              }
+            }
+          },
+          "md": {
+            "type": "dimension",
+            "value": "{dimension.primitive.spacing.md}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-core-spacing-scale-md"
+              }
+            }
+          },
+          "sm": {
+            "type": "dimension",
+            "value": "{dimension.primitive.spacing.sm}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-core-spacing-scale-sm"
+              }
+            }
+          },
+          "xl": {
+            "type": "dimension",
+            "value": "{dimension.primitive.spacing.xl}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-core-spacing-scale-xl"
+              }
+            }
+          },
+          "xs": {
+            "type": "dimension",
+            "value": "{dimension.primitive.spacing.xs}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-core-spacing-scale-xs"
+              }
+            }
+          }
+        },
+        "text-stack": {
+          "desktop": {
+            "body-to-primary-action": {
+              "type": "dimension",
+              "value": "{dimension.spacing.scale.2xl}",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-core-spacing-text-stack-desktop-body-to-primary-action"
+                }
+              }
+            },
+            "heading-to-lead": {
+              "type": "dimension",
+              "value": "{dimension.spacing.scale.lg}",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-core-spacing-text-stack-desktop-heading-to-lead"
+                }
+              }
+            },
+            "lead-to-body": {
+              "type": "dimension",
+              "value": "{dimension.spacing.scale.lg}",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-core-spacing-text-stack-desktop-lead-to-body"
+                }
+              }
+            },
+            "primary-to-secondary-action": {
+              "type": "dimension",
+              "value": "{dimension.spacing.scale.lg}",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-core-spacing-text-stack-desktop-primary-to-secondary-action"
+                }
+              }
+            },
+            "secondary-to-next-block": {
+              "type": "dimension",
+              "value": "{dimension.spacing.scale.2xl}",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-core-spacing-text-stack-desktop-secondary-to-next-block"
+                }
+              }
+            }
+          },
+          "mobile": {
+            "body-to-primary-action": {
+              "type": "dimension",
+              "value": "{dimension.spacing.scale.xl}",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-core-spacing-text-stack-mobile-body-to-primary-action"
+                }
+              }
+            },
+            "heading-to-lead": {
+              "type": "dimension",
+              "value": "{dimension.spacing.scale.md}",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-core-spacing-text-stack-mobile-heading-to-lead"
+                }
+              }
+            },
+            "lead-to-body": {
+              "type": "dimension",
+              "value": "{dimension.spacing.scale.md}",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-core-spacing-text-stack-mobile-lead-to-body"
+                }
+              }
+            },
+            "primary-to-secondary-action": {
+              "type": "dimension",
+              "value": "{dimension.spacing.scale.md}",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-core-spacing-text-stack-mobile-primary-to-secondary-action"
+                }
+              }
+            },
+            "secondary-to-next-block": {
+              "type": "dimension",
+              "value": "{dimension.spacing.scale.xl}",
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-core-spacing-text-stack-mobile-secondary-to-next-block"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "fontFamily": {
+      "typography": {
+        "baikal-condensed": {
+          "type": "fontFamily",
+          "value": "{fontFamily.primitive.baikal-condensed}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-font-family-baikal-condensed"
+            }
+          }
+        },
+        "baikal-expanded": {
+          "type": "fontFamily",
+          "value": "{fontFamily.primitive.baikal-expanded}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-font-family-baikal-expanded"
+            }
+          }
+        },
+        "baikal-extra-condensed": {
+          "type": "fontFamily",
+          "value": "{fontFamily.primitive.baikal-extra-condensed}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-font-family-baikal-extra-condensed"
+            }
+          }
+        },
+        "baikal-normal": {
+          "type": "fontFamily",
+          "value": "{fontFamily.primitive.baikal-normal}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-font-family-baikal-normal"
+            }
+          }
+        },
+        "baikal-ultra-expanded": {
+          "type": "fontFamily",
+          "value": "{fontFamily.primitive.baikal-ultra-expanded}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-font-family-baikal-ultra-expanded"
+            }
+          }
+        }
+      }
+    },
+    "fontSize": {
+      "typography": {
+        "14": {
+          "type": "fontSize",
+          "value": "{fontSize.primitive.14}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-font-size-14"
+            }
+          }
+        },
+        "16": {
+          "type": "fontSize",
+          "value": "{fontSize.primitive.16}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-font-size-16"
+            }
+          }
+        },
+        "18": {
+          "type": "fontSize",
+          "value": "{fontSize.primitive.18}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-font-size-18"
+            }
+          }
+        },
+        "20": {
+          "type": "fontSize",
+          "value": "{fontSize.primitive.20}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-font-size-20"
+            }
+          }
+        },
+        "22": {
+          "type": "fontSize",
+          "value": "{fontSize.primitive.22}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-font-size-22"
+            }
+          }
+        },
+        "24": {
+          "type": "fontSize",
+          "value": "{fontSize.primitive.24}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-font-size-24"
+            }
+          }
+        },
+        "32": {
+          "type": "fontSize",
+          "value": "{fontSize.primitive.32}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-font-size-32"
+            }
+          }
+        },
+        "34": {
+          "type": "fontSize",
+          "value": "{fontSize.primitive.34}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-font-size-34"
+            }
+          }
+        },
+        "36": {
+          "type": "fontSize",
+          "value": "{fontSize.primitive.36}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-font-size-36"
+            }
+          }
+        },
+        "40": {
+          "type": "fontSize",
+          "value": "{fontSize.primitive.40}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-font-size-40"
+            }
+          }
+        },
+        "44": {
+          "type": "fontSize",
+          "value": "{fontSize.primitive.44}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-font-size-44"
+            }
+          }
+        },
+        "48": {
+          "type": "fontSize",
+          "value": "{fontSize.primitive.48}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-font-size-48"
+            }
+          }
+        },
+        "56": {
+          "type": "fontSize",
+          "value": "{fontSize.primitive.56}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-font-size-56"
+            }
+          }
+        },
+        "64": {
+          "type": "fontSize",
+          "value": "{fontSize.primitive.64}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-font-size-64"
+            }
+          }
+        },
+        "68": {
+          "type": "fontSize",
+          "value": "{fontSize.primitive.68}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-font-size-68"
+            }
+          }
+        },
+        "84": {
+          "type": "fontSize",
+          "value": "{fontSize.primitive.84}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-font-size-84"
+            }
+          }
+        },
+        "96": {
+          "type": "fontSize",
+          "value": "{fontSize.primitive.96}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-font-size-96"
+            }
+          }
+        },
+        "116": {
+          "type": "fontSize",
+          "value": "{fontSize.primitive.116}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-font-size-116"
+            }
+          }
+        }
+      }
+    },
+    "lineHeight": {
+      "typography": {
+        "22": {
+          "type": "lineHeight",
+          "value": "{lineHeight.primitive.22}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-line-height-22"
+            }
+          }
+        },
+        "24": {
+          "type": "lineHeight",
+          "value": "{lineHeight.primitive.24}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-line-height-24"
+            }
+          }
+        },
+        "26": {
+          "type": "lineHeight",
+          "value": "{lineHeight.primitive.26}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-line-height-26"
+            }
+          }
+        },
+        "28": {
+          "type": "lineHeight",
+          "value": "{lineHeight.primitive.28}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-line-height-28"
+            }
+          }
+        },
+        "30": {
+          "type": "lineHeight",
+          "value": "{lineHeight.primitive.30}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-line-height-30"
+            }
+          }
+        },
+        "32": {
+          "type": "lineHeight",
+          "value": "{lineHeight.primitive.32}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-line-height-32"
+            }
+          }
+        },
+        "34": {
+          "type": "lineHeight",
+          "value": "{lineHeight.primitive.34}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-line-height-34"
+            }
+          }
+        },
+        "40": {
+          "type": "lineHeight",
+          "value": "{lineHeight.primitive.40}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-line-height-40"
+            }
+          }
+        },
+        "42": {
+          "type": "lineHeight",
+          "value": "{lineHeight.primitive.42}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-line-height-42"
+            }
+          }
+        },
+        "44": {
+          "type": "lineHeight",
+          "value": "{lineHeight.primitive.44}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-line-height-44"
+            }
+          }
+        },
+        "48": {
+          "type": "lineHeight",
+          "value": "{lineHeight.primitive.48}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-line-height-48"
+            }
+          }
+        },
+        "50": {
+          "type": "lineHeight",
+          "value": "{lineHeight.primitive.50}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-line-height-50"
+            }
+          }
+        },
+        "52": {
+          "type": "lineHeight",
+          "value": "{lineHeight.primitive.52}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-line-height-52"
+            }
+          }
+        },
+        "58": {
+          "type": "lineHeight",
+          "value": "{lineHeight.primitive.58}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-line-height-58"
+            }
+          }
+        },
+        "60": {
+          "type": "lineHeight",
+          "value": "{lineHeight.primitive.60}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-line-height-60"
+            }
+          }
+        },
+        "68": {
+          "type": "lineHeight",
+          "value": "{lineHeight.primitive.68}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-line-height-68"
+            }
+          }
+        },
+        "76": {
+          "type": "lineHeight",
+          "value": "{lineHeight.primitive.76}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-line-height-76"
+            }
+          }
+        },
+        "86": {
+          "type": "lineHeight",
+          "value": "{lineHeight.primitive.86}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-line-height-86"
+            }
+          }
+        },
+        "92": {
+          "type": "lineHeight",
+          "value": "{lineHeight.primitive.92}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-line-height-92"
+            }
+          }
+        },
+        "100": {
+          "type": "lineHeight",
+          "value": "{lineHeight.primitive.100}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-core-typography-line-height-100"
+            }
+          }
+        }
+      }
+    },
+    "number": {
+      "layout": {
+        "grid": {
+          "laptop": {
+            "columns": {
+              "type": "number",
+              "value": 12,
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-core-layout-grid-laptop-columns"
+                }
+              }
+            }
+          },
+          "mobile": {
+            "columns": {
+              "type": "number",
+              "value": 4,
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-core-layout-grid-mobile-columns"
+                }
+              }
+            }
+          },
+          "tablet": {
+            "columns": {
+              "type": "number",
+              "value": 8,
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-core-layout-grid-tablet-columns"
+                }
+              }
+            }
+          },
+          "widescreen": {
+            "columns": {
+              "type": "number",
+              "value": 12,
+              "$extensions": {
+                "ekinoTokenArchitect": {
+                  "id": "havas-core-layout-grid-widescreen-columns"
+                }
+              }
+            }
+          }
+        }
+      },
+      "typography": {
+        "letter-spacing": {
+          "default": {
+            "type": "number",
+            "value": "{number.primitive.letter-spacing.default}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-core-typography-letter-spacing-default"
+              }
+            }
+          },
+          "loose": {
+            "type": "number",
+            "value": "{number.primitive.letter-spacing.loose}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-core-typography-letter-spacing-loose"
+              }
+            }
+          },
+          "tight": {
+            "type": "number",
+            "value": "{number.primitive.letter-spacing.tight}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-core-typography-letter-spacing-tight"
+              }
+            }
+          }
+        }
+      }
+    },
+    "other": {
+      "typography": {
+        "font-style": {
+          "bold": {
+            "type": "other",
+            "value": "{other.primitive.font.style.bold}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-core-typography-font-style-bold"
+              }
+            }
+          },
+          "light": {
+            "type": "other",
+            "value": "{other.primitive.font.style.light}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-core-typography-font-style-light"
+              }
+            }
+          },
+          "medium": {
+            "type": "other",
+            "value": "{other.primitive.font.style.medium}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-core-typography-font-style-medium"
+              }
+            }
+          },
+          "regular": {
+            "type": "other",
+            "value": "{other.primitive.font.style.regular}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-core-typography-font-style-regular"
+              }
+            }
+          },
+          "semi-bold": {
+            "type": "other",
+            "value": "{other.primitive.font.style.semi-bold}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-core-typography-font-style-semi-bold"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "site/creative": {
+    "fontFamily": {
+      "typography": {
+        "body": {
+          "type": "fontFamily",
+          "value": "{fontFamily.typography.baikal-normal}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-site-creative-typography-family-body"
+            }
+          }
+        },
+        "button": {
+          "type": "fontFamily",
+          "value": "{fontFamily.typography.baikal-normal}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-site-creative-typography-family-button"
+            }
+          }
+        },
+        "display": {
+          "type": "fontFamily",
+          "value": "{fontFamily.typography.baikal-extra-condensed}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-site-creative-typography-family-display"
+            }
+          }
+        },
+        "heading": {
+          "type": "fontFamily",
+          "value": "{fontFamily.typography.baikal-normal}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-site-creative-typography-family-heading"
+            }
+          }
+        }
+      }
+    },
+    "other": {
+      "context": {
+        "site": {
+          "id": {
+            "type": "other",
+            "value": "creative",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-site-creative-context-site-id"
+              }
+            }
+          },
+          "name": {
+            "type": "other",
+            "value": "Creative",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-site-creative-context-site-name"
+              }
+            }
+          },
+          "text-style-prefix": {
+            "type": "other",
+            "value": "HCN",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-site-creative-context-site-text-style-prefix"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "site/cx": {
+    "fontFamily": {
+      "typography": {
+        "body": {
+          "type": "fontFamily",
+          "value": "{fontFamily.typography.baikal-normal}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-site-cx-typography-family-body"
+            }
+          }
+        },
+        "button": {
+          "type": "fontFamily",
+          "value": "{fontFamily.typography.baikal-expanded}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-site-cx-typography-family-button"
+            }
+          }
+        },
+        "display": {
+          "type": "fontFamily",
+          "value": "{fontFamily.typography.baikal-ultra-expanded}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-site-cx-typography-family-display"
+            }
+          }
+        },
+        "heading": {
+          "type": "fontFamily",
+          "value": "{fontFamily.typography.baikal-expanded}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-site-cx-typography-family-heading"
+            }
+          }
+        }
+      }
+    },
+    "other": {
+      "context": {
+        "site": {
+          "id": {
+            "type": "other",
+            "value": "cx",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-site-cx-context-site-id"
+              }
+            }
+          },
+          "name": {
+            "type": "other",
+            "value": "CX",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-site-cx-context-site-name"
+              }
+            }
+          },
+          "text-style-prefix": {
+            "type": "other",
+            "value": "HCX",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-site-cx-context-site-text-style-prefix"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "site/health": {
+    "fontFamily": {
+      "typography": {
+        "body": {
+          "type": "fontFamily",
+          "value": "{fontFamily.typography.baikal-normal}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-site-health-typography-family-body"
+            }
+          }
+        },
+        "button": {
+          "type": "fontFamily",
+          "value": "{fontFamily.typography.baikal-normal}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-site-health-typography-family-button"
+            }
+          }
+        },
+        "display": {
+          "type": "fontFamily",
+          "value": "{fontFamily.typography.baikal-extra-condensed}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-site-health-typography-family-display"
+            }
+          }
+        },
+        "heading": {
+          "type": "fontFamily",
+          "value": "{fontFamily.typography.baikal-condensed}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-site-health-typography-family-heading"
+            }
+          }
+        }
+      }
+    },
+    "other": {
+      "context": {
+        "site": {
+          "id": {
+            "type": "other",
+            "value": "health",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-site-health-context-site-id"
+              }
+            }
+          },
+          "name": {
+            "type": "other",
+            "value": "Health",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-site-health-context-site-name"
+              }
+            }
+          },
+          "text-style-prefix": {
+            "type": "other",
+            "value": "HHN",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-site-health-context-site-text-style-prefix"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "scheme/dark": {
+    "color": {
+      "action": {
+        "primary": {
+          "background": {
+            "type": "color",
+            "value": "{color.brand.primary}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-scheme-dark-color-action-primary-background"
+              }
+            }
+          },
+          "foreground": {
+            "type": "color",
+            "value": "{color.primitive.primary.white}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-scheme-dark-color-action-primary-foreground"
+              }
+            }
+          }
+        },
+        "secondary": {
+          "border": {
+            "type": "color",
+            "value": "{color.primitive.primary.white}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-scheme-dark-color-action-secondary-border"
+              }
+            }
+          },
+          "foreground": {
+            "type": "color",
+            "value": "{color.primitive.primary.white}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-scheme-dark-color-action-secondary-foreground"
+              }
+            }
+          },
+          "icon": {
+            "type": "color",
+            "value": "{color.primitive.primary.white}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-scheme-dark-color-action-secondary-icon"
+              }
+            }
+          }
+        }
+      },
+      "background": {
+        "canvas": {
+          "type": "color",
+          "value": "{color.primitive.primary.black}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-scheme-dark-color-background-canvas"
+            }
+          }
+        }
+      },
+      "border": {
+        "default": {
+          "type": "color",
+          "value": "{color.primitive.primary.white}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-scheme-dark-color-border-default"
+            }
+          }
+        }
+      },
+      "text": {
+        "primary": {
+          "type": "color",
+          "value": "{color.primitive.primary.white}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-scheme-dark-color-text-primary"
+            }
+          }
+        },
+        "secondary": {
+          "type": "color",
+          "value": "{color.primitive.grey.over-black}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-scheme-dark-color-text-secondary"
+            }
+          }
+        }
+      }
+    },
+    "other": {
+      "color": {
+        "background": {
+          "treatment": {
+            "type": "other",
+            "value": "solid-dark",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-scheme-dark-color-background-treatment"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "scheme/light": {
+    "color": {
+      "action": {
+        "primary": {
+          "background": {
+            "type": "color",
+            "value": "{color.brand.primary}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-scheme-light-color-action-primary-background"
+              }
+            }
+          },
+          "foreground": {
+            "type": "color",
+            "value": "{color.primitive.primary.white}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-scheme-light-color-action-primary-foreground"
+              }
+            }
+          }
+        },
+        "secondary": {
+          "border": {
+            "type": "color",
+            "value": "{color.brand.primary}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-scheme-light-color-action-secondary-border"
+              }
+            }
+          },
+          "foreground": {
+            "type": "color",
+            "value": "{color.brand.primary}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-scheme-light-color-action-secondary-foreground"
+              }
+            }
+          },
+          "icon": {
+            "type": "color",
+            "value": "{color.brand.primary}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-scheme-light-color-action-secondary-icon"
+              }
+            }
+          }
+        }
+      },
+      "background": {
+        "canvas": {
+          "type": "color",
+          "value": "{color.primitive.primary.white}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-scheme-light-color-background-canvas"
+            }
+          }
+        }
+      },
+      "border": {
+        "default": {
+          "type": "color",
+          "value": "{color.primitive.primary.black}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-scheme-light-color-border-default"
+            }
+          }
+        }
+      },
+      "text": {
+        "primary": {
+          "type": "color",
+          "value": "{color.primitive.primary.black}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-scheme-light-color-text-primary"
+            }
+          }
+        },
+        "secondary": {
+          "type": "color",
+          "value": "{color.primitive.grey.over-white}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-scheme-light-color-text-secondary"
+            }
+          }
+        }
+      }
+    },
+    "other": {
+      "color": {
+        "background": {
+          "treatment": {
+            "type": "other",
+            "value": "solid-light",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-scheme-light-color-background-treatment"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "scheme/gradient": {
+    "boolean": {
+      "feature": {
+        "gradient-motion": {
+          "description": "Present only in Creative gradient contexts so Theme-mode export keeps a real absent-mode value.",
+          "type": "boolean",
+          "value": true,
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-scheme-gradient-feature-gradient-motion"
+            }
+          }
+        }
+      }
+    },
+    "color": {
+      "action": {
+        "primary": {
+          "background": {
+            "type": "color",
+            "value": "{color.brand.primary}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-scheme-gradient-color-action-primary-background"
+              }
+            }
+          },
+          "foreground": {
+            "type": "color",
+            "value": "{color.primitive.primary.white}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-scheme-gradient-color-action-primary-foreground"
+              }
+            }
+          }
+        },
+        "secondary": {
+          "border": {
+            "type": "color",
+            "value": "{color.primitive.primary.white}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-scheme-gradient-color-action-secondary-border"
+              }
+            }
+          },
+          "foreground": {
+            "type": "color",
+            "value": "{color.primitive.primary.white}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-scheme-gradient-color-action-secondary-foreground"
+              }
+            }
+          },
+          "icon": {
+            "type": "color",
+            "value": "{color.primitive.primary.white}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-scheme-gradient-color-action-secondary-icon"
+              }
+            }
+          }
+        }
+      },
+      "background": {
+        "canvas": {
+          "type": "color",
+          "value": "{color.primitive.primary.black}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-scheme-gradient-color-background-canvas"
+            }
+          }
+        }
+      },
+      "border": {
+        "default": {
+          "type": "color",
+          "value": "{color.primitive.primary.white}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-scheme-gradient-color-border-default"
+            }
+          }
+        }
+      },
+      "text": {
+        "primary": {
+          "type": "color",
+          "value": "{color.primitive.primary.white}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-scheme-gradient-color-text-primary"
+            }
+          }
+        },
+        "secondary": {
+          "type": "color",
+          "value": "{color.primitive.primary.white}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-scheme-gradient-color-text-secondary"
+            }
+          }
+        }
+      }
+    },
+    "other": {
+      "color": {
+        "background": {
+          "treatment": {
+            "description": "The visual gradient remains an image/effect treatment; black is the solid fallback.",
+            "type": "other",
+            "value": "gradient-motion",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-scheme-gradient-color-background-treatment"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "scheme/red": {
+    "color": {
+      "action": {
+        "primary": {
+          "background": {
+            "type": "color",
+            "value": "{color.primitive.primary.white}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-scheme-red-color-action-primary-background"
+              }
+            }
+          },
+          "foreground": {
+            "type": "color",
+            "value": "{color.brand.primary}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-scheme-red-color-action-primary-foreground"
+              }
+            }
+          }
+        },
+        "secondary": {
+          "border": {
+            "type": "color",
+            "value": "{color.primitive.primary.white}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-scheme-red-color-action-secondary-border"
+              }
+            }
+          },
+          "foreground": {
+            "type": "color",
+            "value": "{color.primitive.primary.white}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-scheme-red-color-action-secondary-foreground"
+              }
+            }
+          },
+          "icon": {
+            "type": "color",
+            "value": "{color.primitive.primary.white}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-scheme-red-color-action-secondary-icon"
+              }
+            }
+          }
+        }
+      },
+      "background": {
+        "canvas": {
+          "type": "color",
+          "value": "{color.brand.primary}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-scheme-red-color-background-canvas"
+            }
+          }
+        }
+      },
+      "border": {
+        "default": {
+          "type": "color",
+          "value": "{color.primitive.primary.white}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-scheme-red-color-border-default"
+            }
+          }
+        }
+      },
+      "text": {
+        "primary": {
+          "type": "color",
+          "value": "{color.primitive.primary.white}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-scheme-red-color-text-primary"
+            }
+          }
+        },
+        "secondary": {
+          "type": "color",
+          "value": "{color.primitive.primary.white}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-scheme-red-color-text-secondary"
+            }
+          }
+        }
+      }
+    },
+    "other": {
+      "color": {
+        "background": {
+          "treatment": {
+            "type": "other",
+            "value": "solid-red",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-scheme-red-color-background-treatment"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "scheme/off-white": {
+    "color": {
+      "action": {
+        "primary": {
+          "background": {
+            "type": "color",
+            "value": "{color.brand.primary}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-scheme-off-white-color-action-primary-background"
+              }
+            }
+          },
+          "foreground": {
+            "type": "color",
+            "value": "{color.primitive.primary.white}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-scheme-off-white-color-action-primary-foreground"
+              }
+            }
+          }
+        },
+        "secondary": {
+          "border": {
+            "type": "color",
+            "value": "{color.brand.primary}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-scheme-off-white-color-action-secondary-border"
+              }
+            }
+          },
+          "foreground": {
+            "type": "color",
+            "value": "{color.brand.primary}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-scheme-off-white-color-action-secondary-foreground"
+              }
+            }
+          },
+          "icon": {
+            "type": "color",
+            "value": "{color.brand.primary}",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-scheme-off-white-color-action-secondary-icon"
+              }
+            }
+          }
+        }
+      },
+      "background": {
+        "canvas": {
+          "type": "color",
+          "value": "{color.primitive.primary.off-white}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-scheme-off-white-color-background-canvas"
+            }
+          }
+        }
+      },
+      "border": {
+        "default": {
+          "type": "color",
+          "value": "{color.primitive.primary.black}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-scheme-off-white-color-border-default"
+            }
+          }
+        }
+      },
+      "text": {
+        "primary": {
+          "type": "color",
+          "value": "{color.primitive.primary.black}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-scheme-off-white-color-text-primary"
+            }
+          }
+        },
+        "secondary": {
+          "type": "color",
+          "value": "{color.primitive.grey.over-white}",
+          "$extensions": {
+            "ekinoTokenArchitect": {
+              "id": "havas-scheme-off-white-color-text-secondary"
+            }
+          }
+        }
+      }
+    },
+    "other": {
+      "color": {
+        "background": {
+          "treatment": {
+            "type": "other",
+            "value": "solid-off-white",
+            "$extensions": {
+              "ekinoTokenArchitect": {
+                "id": "havas-scheme-off-white-color-background-treatment"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "$themes": [
+    {
+      "id": "theme-havas-creative-black",
+      "name": "Creative Black",
+      "group": "Havas context",
+      "selectedTokenSets": {
+        "core": "enabled",
+        "global": "source",
+        "scheme/dark": "enabled",
+        "scheme/gradient": "disabled",
+        "scheme/light": "disabled",
+        "scheme/off-white": "disabled",
+        "scheme/red": "disabled",
+        "site/creative": "enabled",
+        "site/cx": "disabled",
+        "site/health": "disabled"
+      }
+    },
+    {
+      "id": "theme-havas-creative-white",
+      "name": "Creative White",
+      "group": "Havas context",
+      "selectedTokenSets": {
+        "core": "enabled",
+        "global": "source",
+        "scheme/dark": "disabled",
+        "scheme/gradient": "disabled",
+        "scheme/light": "enabled",
+        "scheme/off-white": "disabled",
+        "scheme/red": "disabled",
+        "site/creative": "enabled",
+        "site/cx": "disabled",
+        "site/health": "disabled"
+      }
+    },
+    {
+      "id": "theme-havas-creative-gradient",
+      "name": "Creative Gradient",
+      "group": "Havas context",
+      "selectedTokenSets": {
+        "core": "enabled",
+        "global": "source",
+        "scheme/dark": "disabled",
+        "scheme/gradient": "enabled",
+        "scheme/light": "disabled",
+        "scheme/off-white": "disabled",
+        "scheme/red": "disabled",
+        "site/creative": "enabled",
+        "site/cx": "disabled",
+        "site/health": "disabled"
+      }
+    },
+    {
+      "id": "theme-havas-cx-black",
+      "name": "CX Black",
+      "group": "Havas context",
+      "selectedTokenSets": {
+        "core": "enabled",
+        "global": "source",
+        "scheme/dark": "enabled",
+        "scheme/gradient": "disabled",
+        "scheme/light": "disabled",
+        "scheme/off-white": "disabled",
+        "scheme/red": "disabled",
+        "site/creative": "disabled",
+        "site/cx": "enabled",
+        "site/health": "disabled"
+      }
+    },
+    {
+      "id": "theme-havas-cx-white",
+      "name": "CX White",
+      "group": "Havas context",
+      "selectedTokenSets": {
+        "core": "enabled",
+        "global": "source",
+        "scheme/dark": "disabled",
+        "scheme/gradient": "disabled",
+        "scheme/light": "enabled",
+        "scheme/off-white": "disabled",
+        "scheme/red": "disabled",
+        "site/creative": "disabled",
+        "site/cx": "enabled",
+        "site/health": "disabled"
+      }
+    },
+    {
+      "id": "theme-havas-health-red",
+      "name": "Health Red",
+      "group": "Havas context",
+      "selectedTokenSets": {
+        "core": "enabled",
+        "global": "source",
+        "scheme/dark": "disabled",
+        "scheme/gradient": "disabled",
+        "scheme/light": "disabled",
+        "scheme/off-white": "disabled",
+        "scheme/red": "enabled",
+        "site/creative": "disabled",
+        "site/cx": "disabled",
+        "site/health": "enabled"
+      }
+    },
+    {
+      "id": "theme-havas-health-white",
+      "name": "Health White",
+      "group": "Havas context",
+      "selectedTokenSets": {
+        "core": "enabled",
+        "global": "source",
+        "scheme/dark": "disabled",
+        "scheme/gradient": "disabled",
+        "scheme/light": "enabled",
+        "scheme/off-white": "disabled",
+        "scheme/red": "disabled",
+        "site/creative": "disabled",
+        "site/cx": "disabled",
+        "site/health": "enabled"
+      }
+    },
+    {
+      "id": "theme-havas-health-off-white",
+      "name": "Health Off-white",
+      "group": "Havas context",
+      "selectedTokenSets": {
+        "core": "enabled",
+        "global": "source",
+        "scheme/dark": "disabled",
+        "scheme/gradient": "disabled",
+        "scheme/light": "disabled",
+        "scheme/off-white": "enabled",
+        "scheme/red": "disabled",
+        "site/creative": "disabled",
+        "site/cx": "disabled",
+        "site/health": "enabled"
+      }
+    }
+  ],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global",
+      "core",
+      "site/creative",
+      "site/cx",
+      "site/health",
+      "scheme/dark",
+      "scheme/light",
+      "scheme/gradient",
+      "scheme/red",
+      "scheme/off-white"
+    ]
+  }
+}

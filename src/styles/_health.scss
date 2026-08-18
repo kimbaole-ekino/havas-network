@@ -1,4 +1,4 @@
-.health {
+.page-shell[data-brand="health"] {
   font-family: var(--font-family-typography-baikal-normal);
 
   h1,
@@ -8,230 +8,208 @@
     text-transform: uppercase;
   }
 
-  .site-header {
-    color: #000;
-  }
-
   .button-link {
     min-height: 36px;
     font-size: var(--font-size-typography-16);
   }
-}
 
-.health-hero {
-  position: relative;
-  height: 900px;
-  overflow: hidden;
-  background: #fff;
+  .hero--editorial {
+    min-height: 810px;
 
-  > img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    clip-path: polygon(0 0, 100% 0, 100% 86%, 72% 100%, 0 100%);
-  }
+    .site-header {
+      color: #000;
+    }
 
-  &::after {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(90deg, rgb(0 0 0 / 68%) 0%, transparent 62%);
-    content: "";
-  }
+    .hero__media {
+      clip-path: polygon(0 0, 100% 0, 100% 86%, 72% 100%, 0 100%);
 
-  &__copy {
-    position: absolute;
-    z-index: 2;
-    bottom: 110px;
-    left: max(32px, calc((100vw - 1144px) / 2));
-    max-width: 660px;
-    color: #fff;
+      &::after {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          90deg,
+          rgb(0 0 0 / 68%) 0%,
+          transparent 62%
+        );
+        content: "";
+      }
+    }
+
+    .hero__content {
+      justify-content: end;
+      padding-bottom: 110px;
+      color: #fff;
+    }
 
     h1 {
-      font-size: var(--font-size-typography-96);
+      font-size: var(--font-size-typography-116);
       font-weight: 600;
-      line-height: 0.82;
+      line-height: var(--line-height-typography-100);
     }
 
-    p {
-      max-width: 480px;
-      margin: var(--dimension-spacing-scale-lg) 0
-        var(--dimension-spacing-scale-2xl);
-      font-size: var(--font-size-typography-18);
-      line-height: var(--line-height-typography-26);
+    .hero__body {
+      max-width: 600px;
+      font-family: var(--font-family-typography-baikal-condensed);
+      font-size: var(--font-size-typography-22);
+      line-height: var(--line-height-typography-28);
     }
+  }
+
+  .media-text {
+    h2 {
+      font-size: var(--font-size-typography-56);
+      line-height: var(--line-height-typography-60);
+    }
+
+    &--notched-media-left h2 {
+      font-size: var(--font-size-typography-68);
+      font-weight: 600;
+      line-height: var(--line-height-typography-76);
+    }
+
+    img {
+      clip-path: polygon(0 0, 100% 0, 100% 88%, 94% 100%, 0 100%);
+    }
+
+    &--notched-media-left {
+      .media-text__grid {
+        grid-template-columns: 0.8fr 1.2fr;
+      }
+
+      .media-text__media {
+        height: 500px;
+        clip-path: polygon(0 12%, 14% 0, 100% 0, 100% 88%, 86% 100%, 0 100%);
+      }
+
+      img {
+        height: 100%;
+        clip-path: none;
+      }
+    }
+  }
+
+  .action-banner h2 {
+    font-size: var(--font-size-typography-68);
+    line-height: var(--line-height-typography-76);
+  }
+
+  .site-footer h2 {
+    font-family: var(--font-family-typography-baikal-condensed);
+    text-transform: none;
   }
 }
 
 .health-purpose {
   position: relative;
   padding: 130px 0 190px;
-  background: var(--color-brand-primary);
-  color: #fff;
   clip-path: polygon(0 0, 100% 0, 100% 74%, 78% 100%, 0 100%);
 
   h2 {
-    max-width: 1040px;
-    font-size: var(--font-size-typography-84);
+    max-width: 1060px;
+    font-size: var(--font-size-typography-96);
     font-weight: 500;
-    line-height: 0.86;
-  }
+    line-height: var(--line-height-typography-86);
 
-  h2 strong {
-    font-weight: 600;
+    strong {
+      font-weight: 600;
+    }
   }
 
   p {
     max-width: 720px;
     margin-top: var(--dimension-spacing-scale-2xl);
-    font-size: var(--font-size-typography-18);
-    line-height: var(--line-height-typography-26);
+    font-family: var(--font-family-typography-body);
+    font-size: var(--font-size-typography-20);
+    line-height: var(--line-height-typography-28);
   }
 }
 
-.health-feature-row {
-  display: grid;
-  grid-template-columns: 0.8fr 1.2fr;
-  gap: var(--dimension-spacing-scale-6xl);
-  align-items: center;
+.health-agencies {
+  padding-block: var(--dimension-spacing-module-desktop-regular);
 
-  .notched-image {
-    position: relative;
-    height: 500px;
-    overflow: hidden;
-    clip-path: polygon(0 12%, 14% 0, 100% 0, 100% 88%, 86% 100%, 0 100%);
+  &__panel {
+    padding: var(--dimension-spacing-scale-4xl);
+    border: 2px solid var(--color-brand-primary);
+    clip-path: polygon(
+      18px 0,
+      100% 0,
+      100% calc(100% - 18px),
+      calc(100% - 18px) 100%,
+      0 100%,
+      0 18px
+    );
   }
 
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  h2 {
-    margin-bottom: var(--dimension-spacing-scale-lg);
-    font-size: var(--font-size-typography-64);
-    font-weight: 600;
-    line-height: 0.9;
-  }
-
-  p {
-    max-width: 570px;
-    margin-bottom: var(--dimension-spacing-scale-2xl);
-    font-size: var(--font-size-typography-18);
-    line-height: var(--line-height-typography-26);
-  }
-}
-
-.angular-panel {
-  padding: var(--dimension-spacing-scale-4xl);
-  border: 2px solid var(--color-brand-primary);
-  clip-path: polygon(
-    18px 0,
-    100% 0,
-    100% calc(100% - 18px),
-    calc(100% - 18px) 100%,
-    0 100%,
-    0 18px
-  );
-
-  .section-intro {
+  .block-intro {
     margin-bottom: 0;
   }
-}
 
-.health-editorial {
-  h2 {
-    margin-bottom: var(--dimension-spacing-scale-4xl);
-    font-size: var(--font-size-typography-48);
-    font-weight: 600;
-    line-height: var(--line-height-typography-52);
+  .block-intro h2,
+  .stats-list dt {
+    font-family: var(--font-family-typography-baikal-extra-condensed);
+    text-transform: uppercase;
   }
-}
-
-.health-story {
-  display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
-  gap: var(--dimension-spacing-scale-4xl);
-  align-items: center;
-  margin-bottom: var(--dimension-spacing-module-desktop-regular);
-
-  &--reverse {
-    grid-template-columns: 0.8fr 1.2fr;
-
-    img {
-      grid-column: 2;
-    }
-
-    div {
-      grid-row: 1;
-      grid-column: 1;
-    }
-  }
-
-  img {
-    width: 100%;
-    aspect-ratio: 1.75;
-    object-fit: cover;
-    clip-path: polygon(0 0, 100% 0, 100% 88%, 94% 100%, 0 100%);
-  }
-
-  h3 {
-    margin-bottom: var(--dimension-spacing-scale-lg);
-    font-size: var(--font-size-typography-48);
-    font-weight: 600;
-    line-height: 0.92;
-  }
-
-  p {
-    margin-bottom: var(--dimension-spacing-scale-2xl);
-    font-size: var(--font-size-typography-18);
-    line-height: var(--line-height-typography-26);
-  }
-}
-
-.health-cta {
-  padding: var(--dimension-spacing-scale-7xl) 0;
-  text-align: center;
-
-  h2 {
-    margin-bottom: var(--dimension-spacing-scale-2xl);
-    font-size: var(--font-size-typography-64);
-    font-weight: 600;
-    line-height: 0.9;
-  }
-}
-
-.health .site-footer {
-  color: var(--color-text-primary);
 }
 
 @media (max-width: 840px) {
-  .health-hero {
-    height: 540px;
+  .page-shell[data-brand="health"] {
+    .hero--editorial {
+      min-height: 540px;
 
-    > img {
-      clip-path: polygon(0 0, 100% 0, 100% 90%, 76% 100%, 0 100%);
-    }
+      .hero__media {
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 76% 100%, 0 100%);
 
-    &::after {
-      background: linear-gradient(0deg, rgb(0 0 0 / 76%) 0%, transparent 68%);
-    }
+        &::after {
+          background: linear-gradient(
+            0deg,
+            rgb(0 0 0 / 76%) 0%,
+            transparent 68%
+          );
+        }
+      }
 
-    &__copy {
-      bottom: 40px;
-      left: 16px;
-      max-width: calc(100% - 32px);
+      .hero__content {
+        padding-bottom: var(--dimension-spacing-scale-2xl);
+      }
 
       h1 {
         font-size: var(--font-size-typography-56);
+        line-height: var(--line-height-typography-58);
       }
 
-      p {
+      .hero__body {
         margin: var(--dimension-spacing-scale-md) 0
           var(--dimension-spacing-scale-lg);
         font-size: var(--font-size-typography-16);
         line-height: var(--line-height-typography-24);
       }
+    }
+
+    .media-text {
+      h2 {
+        font-size: var(--font-size-typography-36);
+        line-height: var(--line-height-typography-40);
+      }
+
+      &--notched-media-left {
+        h2 {
+          font-size: var(--font-size-typography-44);
+          line-height: var(--line-height-typography-48);
+        }
+
+        .media-text__grid {
+          grid-template-columns: 1fr;
+        }
+
+        .media-text__media {
+          height: 410px;
+        }
+      }
+    }
+
+    .action-banner h2 {
+      font-size: var(--font-size-typography-48);
+      line-height: var(--line-height-typography-48);
     }
   }
 
@@ -242,64 +220,20 @@
 
     h2 {
       font-size: var(--font-size-typography-48);
-      line-height: 0.9;
+      line-height: var(--line-height-typography-50);
     }
 
     p {
-      font-size: var(--font-size-typography-16);
+      font-size: var(--font-size-typography-18);
       line-height: var(--line-height-typography-24);
     }
   }
 
-  .health-feature-row,
-  .health-story,
-  .health-story--reverse {
-    grid-template-columns: 1fr;
-    gap: var(--dimension-spacing-scale-xl);
-  }
+  .health-agencies {
+    padding-block: var(--dimension-spacing-module-mobile-small);
 
-  .health-feature-row {
-    .notched-image {
-      height: 410px;
-    }
-
-    h2 {
-      font-size: var(--font-size-typography-48);
-    }
-  }
-
-  .angular-panel {
-    padding: var(--dimension-spacing-scale-xl);
-  }
-
-  .health-story,
-  .health-story--reverse {
-    margin-bottom: var(--dimension-spacing-scale-4xl);
-
-    img,
-    div {
-      grid-row: auto;
-      grid-column: auto;
-    }
-
-    h3 {
-      font-size: var(--font-size-typography-40);
-    }
-  }
-
-  .health-story--reverse img {
-    order: 0;
-  }
-
-  .health-story--reverse div {
-    order: 1;
-  }
-
-  .health-cta {
-    padding: var(--dimension-spacing-scale-4xl) 0;
-
-    h2 {
-      font-size: var(--font-size-typography-40);
+    &__panel {
+      padding: var(--dimension-spacing-scale-xl);
     }
   }
 }

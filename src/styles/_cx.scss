@@ -1,214 +1,188 @@
-.cx {
-  font-family: var(--font-family-typography-baikal-expanded);
+.page-shell[data-brand="cx"] {
+  font-family: var(--font-family-typography-baikal-normal);
 
-  .site-header,
-  .site-footer,
-  .button-link,
-  .work-card p {
-    font-family: var(--font-family-typography-baikal-normal);
+  .hero--statement {
+    min-height: 810px;
+
+    .hero__media {
+      &::after {
+        position: absolute;
+        inset: 0;
+        background:
+          linear-gradient(
+            160deg,
+            transparent 0 19%,
+            rgb(255 30 50 / 48%) 20%,
+            transparent 27%
+          ),
+          linear-gradient(
+            150deg,
+            transparent 0 30%,
+            rgb(160 255 218 / 44%) 31%,
+            transparent 40%
+          ),
+          linear-gradient(90deg, #000 0 22%, transparent 58%, #000 100%);
+        content: "";
+      }
+
+      img,
+      video {
+        object-position: 66% 45%;
+        filter: saturate(1.35) contrast(1.12);
+        opacity: 0.76;
+      }
+    }
+
+    h1 {
+      font-family: var(--font-family-typography-baikal-ultra-expanded);
+      font-size: var(--font-size-typography-56);
+      font-weight: 500;
+      line-height: var(--line-height-typography-60);
+      letter-spacing: -0.02em;
+    }
+
+    em {
+      font-family: var(--font-family-typography-baikal-expanded);
+      font-style: normal;
+    }
   }
-}
 
-.cx-hero {
-  position: relative;
-  height: 900px;
-  overflow: hidden;
-  background: #000;
+  .statement--centered {
+    min-height: 660px;
 
-  &__beam {
-    position: absolute;
-    inset: 0;
-    background:
-      linear-gradient(
-        160deg,
-        transparent 0 19%,
-        rgb(255 30 50 / 55%) 20%,
-        transparent 26%
-      ),
-      linear-gradient(
-        150deg,
-        transparent 0 30%,
-        rgb(160 255 218 / 50%) 31%,
-        transparent 39%
-      ),
-      linear-gradient(90deg, #000 0 22%, transparent 55%, #000 100%),
-      url("/assets/cx/hero.png") 66% 45% / 900px auto no-repeat;
-    filter: saturate(1.4) contrast(1.15);
-    opacity: 0.72;
+    h2 {
+      max-width: 1080px;
+      font-family: var(--font-family-typography-baikal-expanded);
+      font-size: var(--font-size-typography-40);
+      line-height: var(--line-height-typography-48);
+    }
   }
 
-  &__content {
-    position: relative;
-    z-index: 1;
-    display: flex;
-    height: 100%;
-    align-items: center;
-  }
-
-  h1 {
+  .block-intro h2,
+  .media-text h2,
+  .action-banner h2,
+  .stats-list dt {
     font-family: var(--font-family-typography-baikal-ultra-expanded);
-    font-size: var(--font-size-typography-64);
-    font-weight: 500;
-    line-height: 0.92;
-    letter-spacing: -0.02em;
   }
 
-  em {
+  .block-intro h2,
+  .action-banner h2 {
+    font-size: var(--font-size-typography-56);
+    line-height: var(--line-height-typography-60);
+  }
+
+  .work-card h3 {
     font-family: var(--font-family-typography-baikal-expanded);
-    font-style: normal;
-  }
-}
-
-.cx-statement {
-  min-height: 660px;
-  display: grid;
-  align-items: center;
-
-  .container {
-    max-width: 1144px;
-  }
-
-  p {
-    max-width: 1080px;
-    margin-bottom: var(--dimension-spacing-scale-2xl);
-    font-family: var(--font-family-typography-baikal-expanded);
-    font-size: var(--font-size-typography-48);
-    line-height: var(--line-height-typography-52);
-  }
-
-  em {
-    color: var(--color-brand-primary);
-    font-style: normal;
-  }
-}
-
-.cx .work-card h3,
-.cx .section-intro h2,
-.cx .feature-grid h2,
-.cx-cta h2 {
-  font-family: var(--font-family-typography-baikal-ultra-expanded);
-}
-
-.cx .network-section {
-  padding-block: var(--dimension-spacing-module-desktop-large);
-
-  .section-intro h2 {
-    line-height: 0.92;
-  }
-
-  .stats {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-.cx .capabilities {
-  background: linear-gradient(120deg, var(--color-brand-primary), #a90000 75%);
-  color: #fff;
-}
-
-.capability-lines {
-  border-top: 1px solid rgb(255 255 255 / 55%);
-
-  p {
-    padding: var(--dimension-spacing-scale-xl) 0;
-    border-bottom: 1px solid rgb(255 255 255 / 55%);
     font-size: var(--font-size-typography-24);
-    line-height: var(--line-height-typography-30);
+    line-height: var(--line-height-typography-32);
   }
-}
 
-.feature--cx .feature-grid img {
-  aspect-ratio: 1.45;
-}
+  .stats-list dt {
+    font-size: var(--font-size-typography-68);
+    line-height: var(--line-height-typography-76);
+  }
 
-.cx-cta {
-  padding: var(--dimension-spacing-module-desktop-regular) 0;
-  text-align: center;
+  .network-stats .block-intro h2 {
+    line-height: var(--line-height-typography-60);
+  }
 
-  h2 {
-    margin-bottom: var(--dimension-spacing-scale-2xl);
+  .capabilities--list {
+    color: #fff;
+  }
+
+  .media-text img {
+    aspect-ratio: 1.45;
+  }
+
+  .media-text h2 {
+    font-family: var(--font-family-typography-baikal-expanded);
+    font-size: var(--font-size-typography-34);
+    line-height: var(--line-height-typography-42);
+  }
+
+  .action-banner--centered h2 {
     font-size: var(--font-size-typography-48);
-    font-weight: 500;
     line-height: var(--line-height-typography-52);
-  }
-
-  .button-link + .button-link {
-    margin-left: 12px;
   }
 }
 
 @media (max-width: 840px) {
-  .cx-hero {
-    height: 610px;
+  .page-shell[data-brand="cx"] {
+    .hero--statement {
+      min-height: 600px;
 
-    &__beam {
-      background:
-        linear-gradient(
-          150deg,
-          transparent 0 16%,
-          rgb(255 30 50 / 60%) 17%,
-          transparent 25%
-        ),
-        linear-gradient(
-          135deg,
-          transparent 0 25%,
-          rgb(160 255 218 / 50%) 26%,
-          transparent 36%
-        ),
-        linear-gradient(0deg, #000 0 25%, transparent 65%),
-        url("/assets/cx/hero.png") 55% 30% / auto 440px no-repeat;
+      .hero__media {
+        &::after {
+          background:
+            linear-gradient(
+              150deg,
+              transparent 0 16%,
+              rgb(255 30 50 / 55%) 17%,
+              transparent 26%
+            ),
+            linear-gradient(
+              135deg,
+              transparent 0 25%,
+              rgb(160 255 218 / 45%) 26%,
+              transparent 37%
+            ),
+            linear-gradient(0deg, #000 0 25%, transparent 68%);
+        }
+
+        img,
+        video {
+          object-position: 55% 30%;
+        }
+      }
+
+      .hero__content {
+        justify-content: end;
+        padding-bottom: var(--dimension-spacing-scale-4xl);
+      }
+
+      h1 {
+        font-family: var(--font-family-typography-baikal-expanded);
+        font-size: var(--font-size-typography-36);
+        line-height: var(--line-height-typography-44);
+      }
     }
 
-    &__content {
-      align-items: end;
-      padding-bottom: var(--dimension-spacing-scale-4xl);
+    .statement--centered {
+      min-height: 500px;
+
+      h2 {
+        font-size: var(--font-size-typography-32);
+        line-height: var(--line-height-typography-40);
+      }
     }
 
-    h1 {
-      font-size: var(--font-size-typography-40);
-      line-height: 0.95;
+    .network-stats .block-intro h2 {
+      line-height: var(--line-height-typography-44);
     }
-  }
 
-  .cx-statement {
-    min-height: 480px;
+    .block-intro h2 {
+      font-size: var(--font-size-typography-36);
+      line-height: var(--line-height-typography-44);
+    }
 
-    p {
+    .work-card h3 {
+      font-size: var(--font-size-typography-20);
+      line-height: var(--line-height-typography-28);
+    }
+
+    .stats-list dt {
+      font-size: var(--font-size-typography-44);
+      line-height: var(--line-height-typography-52);
+    }
+
+    .media-text h2 {
+      font-size: var(--font-size-typography-36);
+      line-height: var(--line-height-typography-44);
+    }
+
+    .action-banner--centered h2 {
       font-size: var(--font-size-typography-32);
       line-height: var(--line-height-typography-40);
-    }
-  }
-
-  .cx .network-section {
-    padding-block: var(--dimension-spacing-module-mobile-small);
-
-    .stats {
-      grid-template-columns: 1fr;
-    }
-
-    .stats div,
-    .stats div:nth-child(even) {
-      padding-left: 0;
-      border-left: 0;
-    }
-  }
-
-  .capability-lines p {
-    padding: var(--dimension-spacing-scale-lg) 0;
-    font-size: var(--font-size-typography-18);
-    line-height: var(--line-height-typography-26);
-  }
-
-  .cx-cta {
-    padding: var(--dimension-spacing-module-mobile-small) 0;
-
-    h2 {
-      font-size: var(--font-size-typography-32);
-      line-height: var(--line-height-typography-40);
-    }
-
-    .button-link + .button-link {
-      margin: 12px 0 0;
     }
   }
 }

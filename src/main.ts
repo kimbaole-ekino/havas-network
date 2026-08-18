@@ -1,28 +1,23 @@
-import "@ekinotech/design-tokens-havas-network/creative-black-desktop.css";
-import "@ekinotech/design-tokens-havas-network/creative-black-mobile.css";
-import "@ekinotech/design-tokens-havas-network/creative-gradient-desktop.css";
-import "@ekinotech/design-tokens-havas-network/creative-gradient-mobile.css";
-import "@ekinotech/design-tokens-havas-network/creative-white-desktop.css";
-import "@ekinotech/design-tokens-havas-network/creative-white-mobile.css";
-import "@ekinotech/design-tokens-havas-network/cx-black-desktop.css";
-import "@ekinotech/design-tokens-havas-network/cx-black-mobile.css";
-import "@ekinotech/design-tokens-havas-network/cx-white-desktop.css";
-import "@ekinotech/design-tokens-havas-network/cx-white-mobile.css";
-import "@ekinotech/design-tokens-havas-network/health-off-white-desktop.css";
-import "@ekinotech/design-tokens-havas-network/health-off-white-mobile.css";
-import "@ekinotech/design-tokens-havas-network/health-red-desktop.css";
-import "@ekinotech/design-tokens-havas-network/health-red-mobile.css";
-import "@ekinotech/design-tokens-havas-network/health-white-desktop.css";
-import "@ekinotech/design-tokens-havas-network/health-white-mobile.css";
+import "@ekinotech/design-tokens-havas-network/creative-black.css";
+import "@ekinotech/design-tokens-havas-network/creative-gradient.css";
+import "@ekinotech/design-tokens-havas-network/creative-white.css";
+import "@ekinotech/design-tokens-havas-network/cx-black.css";
+import "@ekinotech/design-tokens-havas-network/cx-white.css";
+import "@ekinotech/design-tokens-havas-network/health-off-white.css";
+import "@ekinotech/design-tokens-havas-network/health-red.css";
+import "@ekinotech/design-tokens-havas-network/health-white.css";
 import "./styles/main.scss";
 
+import { bindBlockInteractions } from "./blocks/interactions";
+import type { Brand, PageDefinition } from "./blocks/model";
+import { renderPage } from "./blocks/page-shell";
 import { creativePage } from "./pages/creative";
 import { cxPage } from "./pages/cx";
 import { healthPage } from "./pages/health";
 
 const app = document.querySelector<HTMLDivElement>("#app") ?? failMissingApp();
 
-const pages: Partial<Record<string, () => string>> = {
+const pages: Partial<Record<string, PageDefinition<Brand>>> = {
   "/creative": creativePage,
   "/cx": cxPage,
   "/health": healthPage,
@@ -39,38 +34,10 @@ function indexPage(): string {
 function render(): void {
   const path = window.location.pathname.replace(/\/$/, "") || "/";
   const page = pages[path];
-  app.innerHTML = page ? page() : indexPage();
-  document.body.dataset.brand = path.slice(1) || "index";
-  document.title = page
-    ? `Havas ${path === "/cx" ? "CX" : path.slice(1).replace(/^./, (character) => character.toUpperCase())} — Design Token PoC`
-    : "Havas Network — Design Token PoC";
-  applyViewportSchemes();
-  bindMenu();
+  app.innerHTML = page ? renderPage(page) : indexPage();
+  document.body.dataset.brand = page?.brand ?? "index";
+  document.title = page?.title ?? "Havas Network — Design Token PoC";
+  bindBlockInteractions();
 }
 
-function applyViewportSchemes(): void {
-  const viewport = window.matchMedia("(max-width: 840px)").matches
-    ? "mobile"
-    : "desktop";
-  document
-    .querySelectorAll<HTMLElement>("[data-token-theme]")
-    .forEach((element) => {
-      element.dataset.colorScheme = `${element.dataset.tokenTheme}-${viewport}`;
-    });
-}
-
-function bindMenu(): void {
-  const button = document.querySelector<HTMLButtonElement>(".menu-toggle");
-  const menu = document.querySelector<HTMLElement>(".site-menu");
-  if (!button || !menu) return;
-  button.addEventListener("click", () => {
-    const expanded = button.getAttribute("aria-expanded") === "true";
-    button.setAttribute("aria-expanded", String(!expanded));
-    menu.classList.toggle("site-menu--open", !expanded);
-  });
-}
-
-window
-  .matchMedia("(max-width: 840px)")
-  .addEventListener("change", applyViewportSchemes);
 render();

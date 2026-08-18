@@ -26,7 +26,10 @@ npm run build
 
 ## Implementation notes
 
-- Vite renders semantic HTML from small TypeScript page modules. No UI framework or router is used.
-- SCSS owns responsive composition. JavaScript only switches desktop/mobile token contexts and controls the small menu.
-- All 16 package CSS exports are imported once in `src/main.ts`. Each section declares its brand and background context, such as `creative-black` or `health-off-white`; TypeScript adds the current `desktop` or `mobile` suffix.
-- Baikal fonts come from the supplied production source. Page images and logo vectors are stable local copies of the supplied Figma assets.
+- Vite renders semantic HTML from typed block definitions. No UI framework or router is used.
+- Files in `src/pages/` contain content, brand, theme, and meaningful block variants. Shared renderers in `src/blocks/` own the HTML structure.
+- SCSS owns component layout, typography, and responsive behavior. The only page interaction is the pointer effect on the Creative gradient capabilities block.
+- The responsive package exports are imported once in `src/main.ts`. Each section uses a stable brand-theme context, such as `creative-gradient` or `health-off-white`; viewport names are not part of the theme.
+- Every page is contained by a centered `site-canvas` with a maximum width of 1440px. Inner layout uses the grid values supplied by the token package.
+- Baikal fonts and fallback posters are local. The landing pages use current public production media URLs for videos, content images, and award logos.
+- Creative and CX content comes from their live sites. Health staging was accessible during implementation, so Health also uses its current staging content and media.

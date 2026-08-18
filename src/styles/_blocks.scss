@@ -14,47 +14,10 @@
   justify-content: space-between;
   padding: var(--dimension-spacing-scale-xl);
   color: var(--color-text-primary);
-
-  &__brand,
-  .brand-lockup {
-    display: flex;
-    text-decoration: none;
-  }
 }
 
-.brand-lockup--creative {
-  align-items: center;
-  gap: 14px;
-
-  > img {
-    width: 128px;
-  }
-
-  > span {
-    display: grid;
-    gap: 4px;
-  }
-
-  > span img {
-    width: 58px;
-  }
-}
-
-.brand-lockup--cx {
-  width: 145px;
-}
-
-.brand-lockup--health {
-  align-items: center;
-  gap: 10px;
-
-  img:first-child {
-    width: 118px;
-  }
-
-  img:last-child {
-    width: 52px;
-  }
+.brand-lockup > img {
+  height: 40px;
 }
 
 .button-link {
@@ -114,6 +77,7 @@
     min-height: inherit;
     flex-direction: column;
     justify-content: center;
+    max-width: var(--container-width);
 
     h1 {
       max-width: 960px;
@@ -156,7 +120,7 @@
 
   &__grid {
     display: grid;
-    grid-template-columns: repeat(12, minmax(0, 1fr));
+    max-width: var(--container-width);
     gap: var(--dimension-layout-grid-laptop-gutter);
 
     > .eyebrow {
@@ -191,9 +155,13 @@
   gap: var(--dimension-layout-grid-laptop-gutter);
   align-items: start;
   width: 100%;
-  max-width: 1144px;
+  max-width: var(--container-width);
   margin-inline: auto;
   margin-bottom: var(--dimension-spacing-scale-5xl);
+
+  &.block-intro-wide {
+    max-width: none;
+  }
 
   h2 {
     max-width: 580px;
@@ -336,8 +304,6 @@
   }
 
   &--list {
-    background: var(--color-brand-primary);
-
     .capabilities__orb {
       display: none;
     }
@@ -354,7 +320,7 @@
 
     summary,
     > p {
-      padding: var(--dimension-spacing-scale-xl) 0;
+      padding: 42px var(--dimension-spacing-scale-xl);
       font-family: var(--font-family-typography-heading);
       font-size: var(--font-size-typography-24);
       font-weight: 500;
@@ -421,11 +387,11 @@
 
   &__copy {
     h2 {
-      margin: 12px 0 var(--dimension-spacing-scale-lg);
+      margin-bottom: var(--dimension-spacing-scale-lg);
       font-family: var(--font-family-typography-heading);
-      font-size: var(--font-size-typography-48);
+      font-size: var(--font-size-typography-40);
       font-weight: 500;
-      line-height: var(--line-height-typography-52);
+      line-height: var(--line-height-typography-48);
     }
 
     > p:not(.eyebrow) {
@@ -433,8 +399,8 @@
         --dimension-spacing-text-stack-desktop-body-to-primary-action
       );
       font-family: var(--font-family-typography-body);
-      font-size: var(--font-size-typography-18);
-      line-height: var(--line-height-typography-26);
+      font-size: var(--font-size-typography-16);
+      line-height: var(--line-height-typography-22);
     }
   }
 
@@ -473,8 +439,7 @@
     position: relative;
     z-index: 1;
     display: flex;
-    align-items: end;
-    justify-content: space-between;
+    flex-direction: column;
     gap: var(--dimension-spacing-scale-2xl);
   }
 
@@ -577,7 +542,6 @@
     justify-content: space-between;
     gap: var(--dimension-spacing-scale-xl);
     padding-top: var(--dimension-spacing-scale-lg);
-    border-top: 1px solid var(--color-text-secondary);
     font-size: var(--font-size-typography-14);
     line-height: var(--line-height-typography-22);
 
@@ -608,30 +572,8 @@
     padding: var(--dimension-spacing-scale-md);
   }
 
-  .brand-lockup--creative {
-    gap: 7px;
-
-    > img {
-      width: 76px;
-    }
-
-    > span img {
-      width: 42px;
-    }
-  }
-
-  .brand-lockup--cx {
-    width: 96px;
-  }
-
-  .brand-lockup--health {
-    img:first-child {
-      width: 86px;
-    }
-
-    img:last-child {
-      width: 38px;
-    }
+  .brand-lockup > img {
+    height: 30px;
   }
 
   .hero {
@@ -717,20 +659,18 @@
   }
 
   .stats-list {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(1, minmax(0, 1fr));
     margin-top: var(--dimension-spacing-scale-2xl);
 
-    div,
-    div:not(:first-child) {
+    div {
       min-height: 100px;
-      padding: var(--dimension-spacing-scale-lg) 0;
+      padding: 0 0 var(--dimension-spacing-scale-xl) var(--dimension-spacing-scale-md) !important;
       border-right: 0;
-      border-bottom: 1px solid var(--color-border-default);
-    }
-
-    div:nth-child(even) {
-      padding-left: var(--dimension-spacing-scale-md);
       border-left: 1px solid var(--color-border-default);
+
+      ~ div {
+        margin-top: var(--dimension-spacing-scale-xl);
+      }
     }
 
     dt {

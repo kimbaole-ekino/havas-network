@@ -26,14 +26,14 @@ const brandNames: Record<Brand, string> = {
 
 function brandLogo(brand: Brand): string {
   if (brand === "creative") {
-    return `<span class="brand-lockup brand-lockup--creative" aria-hidden="true"><img src="/assets/creative/logo-havas.svg" alt="" /><span><img src="/assets/creative/logo-creative.svg" alt="" /><img src="/assets/creative/logo-network.svg" alt="" /></span></span>`;
+    return `<span class="brand-lockup brand-lockup--creative" aria-hidden="true"><img src="https://havascreative.com/wp-content/uploads/2026/05/Logo_Creative_Network_Primary_Lockup_RedBlack_RGB-1.png" alt="" /></span>`;
   }
 
   if (brand === "cx") {
-    return `<img class="brand-lockup brand-lockup--cx" src="/assets/cx/logo.svg" alt="" />`;
+    return `<span class="brand-lockup brand-lockup--cx" aria-hidden="true"><img src="https://havascx.com/wp-content/uploads/2026/05/82e7b8d728a96970d5eaf12f02d0ae0e058b154c-scaled.png" alt="" /></span>`;
   }
 
-  return `<span class="brand-lockup brand-lockup--health" aria-hidden="true"><img src="/assets/health/logo.svg" alt="" /><img src="/assets/health/logo-lockup.svg" alt="" /></span>`;
+  return `<span class="brand-lockup brand-lockup--health" aria-hidden="true"><img src="/assets/health/Havas_Health_Homepage.png" alt="" /></span>`;
 }
 
 export function renderSiteHeader(
@@ -96,7 +96,7 @@ function renderWorkGrid<B extends Brand>(
   block: WorkGridBlock<B>,
 ): string {
   const cards = block.items.map(renderWorkCard).join("");
-  return `<section class="work-grid-block"${sectionAttributes(brand, block.theme, block.id)}><div class="site-container block-intro"><h2>${renderRichText(block.heading)}</h2>${block.intro ? `<p>${escapeHtml(block.intro)}</p>` : ""}</div><div class="site-container site-container--wide work-grid">${cards}</div></section>`;
+  return `<section class="work-grid-block"${sectionAttributes(brand, block.theme, block.id)}><div class="site-container block-intro"><h2>${renderRichText(block.heading)}</h2>${block.intro ? `<p>${escapeHtml(block.intro)}</p>` : ""}</div><div class="site-container work-grid">${cards}</div></section>`;
 }
 
 function renderWorkCard(item: WorkItemConfig): string {
@@ -131,7 +131,7 @@ function renderCapabilities<B extends Brand>(
   const pointerAttribute = block.pointerEffect
     ? ' data-gradient-pointer="true"'
     : "";
-  return `<section class="capabilities capabilities--${block.variant}"${sectionAttributes(brand, block.theme, block.id)}${pointerAttribute}><div class="capabilities__orb" aria-hidden="true"></div><div class="site-container"><div class="block-intro"><h2>${renderRichText(block.heading)}</h2><p>${escapeHtml(block.intro)}</p></div><div class="capabilities__items">${items}</div></div></section>`;
+  return `<section class="capabilities capabilities--${block.variant}"${sectionAttributes(brand, block.theme, block.id)}${pointerAttribute}><div class="capabilities__orb" aria-hidden="true"></div><div class="site-container"><div class="block-intro block-intro-wide"><h2>${renderRichText(block.heading)}</h2><p>${escapeHtml(block.intro)}</p></div><div class="capabilities__items">${items}</div></div></section>`;
 }
 
 function renderLogoGrid<B extends Brand>(

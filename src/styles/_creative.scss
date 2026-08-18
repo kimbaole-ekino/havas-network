@@ -58,25 +58,7 @@
 
   .action-banner--media {
     min-height: 560px;
-    align-items: end;
     background: var(--color-brand-primary);
-
-    .action-banner__media {
-      img:first-child {
-        z-index: 1;
-        width: 58%;
-        object-fit: contain;
-        object-position: left bottom;
-      }
-
-      img:last-child {
-        right: 0;
-        left: auto;
-        width: 58%;
-        object-position: center 35%;
-        opacity: 0.85;
-      }
-    }
 
     &::after {
       position: absolute;
@@ -91,6 +73,10 @@
 
     .action-banner__content {
       z-index: 2;
+
+      .button-group {
+        margin-left: 120px;
+      }
     }
   }
 }
@@ -130,6 +116,16 @@
 
       .action-banner__media img:last-child {
         object-position: 58% center;
+      }
+
+      .action-banner__content {
+        .button-group {
+          margin-left: 0;
+        }
+
+        .button-link {
+          width: 100%;
+        }
       }
     }
   }

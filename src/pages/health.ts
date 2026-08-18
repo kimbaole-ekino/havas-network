@@ -26,7 +26,6 @@ export const healthPage = definePage({
       },
       heading: "Built for what’s\nnext in health",
       body: "We help health brands create desire, shape culture, and drive growth through creativity, technology, innovation, and the power of being first.",
-      actions: [{ label: "Our purpose", href: "#purpose" }],
     },
     {
       type: "healthPurpose",
@@ -73,7 +72,6 @@ export const healthPage = definePage({
       type: "mediaText",
       theme: "off-white",
       variant: "media-left",
-      eyebrow: "Feature report",
       heading: "Superaging: The desire of a longer, better life",
       body: "Superaging explores how longevity, technology, optimization, and consumer behavior are reshaping the future of health — and the opportunity for brands to lead in the emerging longevity economy.",
       image: {

@@ -21,7 +21,6 @@ export const creativePage = definePage({
           playsinline: true,
         },
       },
-      eyebrow: "Global Creative Network",
     },
     {
       type: "statement",
@@ -257,7 +256,6 @@ export const creativePage = definePage({
       type: "mediaText",
       theme: "white",
       variant: "media-left",
-      eyebrow: "Featured Report",
       heading: "The Science of Desire Report",
       body: "Desirable brands drive desirable results. Drawing on global brand data, behavioral science and qualitative research, three interacting drivers consistently emerge as the foundations of brand desire: Attraction, Affinity and Attachment.\n\nThis report explores how to design, measure and build that system for growth.",
       image: {
@@ -277,10 +275,6 @@ export const creativePage = definePage({
       variant: "media",
       heading: "Create brands\npeople choose",
       media: [
-        {
-          src: "https://havascreative.com/wp-content/uploads/2026/06/ee3a0fbce94c5574acfd9a456bd9f489dce8c947.png",
-          alt: "",
-        },
         {
           src: "https://havascreative.com/wp-content/uploads/2026/06/hcn_home_get-in-touch-scaled.jpg",
           alt: "",

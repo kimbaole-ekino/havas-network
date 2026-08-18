@@ -150,7 +150,7 @@ export const cxPage = definePage({
     {
       type: "capabilities",
       theme: "black",
-      variant: "list",
+      variant: 'list',
       heading: "What we do",
       intro:
         "Our work brings customer experiences to life by turning ideas and insights into action that people feel, use and remember.",

@@ -52,11 +52,13 @@
       font-family: var(--font-family-typography-baikal-condensed);
       font-size: var(--font-size-typography-22);
       line-height: var(--line-height-typography-28);
+      margin-bottom: 0;
     }
   }
 
   .media-text {
     h2 {
+      font-weight: 600;
       font-size: var(--font-size-typography-56);
       line-height: var(--line-height-typography-60);
     }
@@ -148,6 +150,18 @@
   .stats-list dt {
     font-family: var(--font-family-typography-baikal-extra-condensed);
     text-transform: uppercase;
+    font-size: var(--font-size-typography-68);
+    line-height: var(--line-height-typography-76);
+  }
+
+  .block-intro p {
+    font-size: var(--font-size-typography-18);
+    line-height: var(--line-height-typography-26);
+  }
+
+  .stats-list dd {
+    font-size: var(--font-size-typography-18);
+    line-height: var(--line-height-typography-26);
   }
 }
 
@@ -178,10 +192,9 @@
       }
 
       .hero__body {
-        margin: var(--dimension-spacing-scale-md) 0
-          var(--dimension-spacing-scale-lg);
-        font-size: var(--font-size-typography-16);
-        line-height: var(--line-height-typography-24);
+        margin: var(--dimension-spacing-scale-md) 0 0;
+        font-size: var(--font-size-typography-18);
+        line-height: var(--line-height-typography-26);
       }
     }
 
@@ -207,9 +220,15 @@
       }
     }
 
-    .action-banner h2 {
-      font-size: var(--font-size-typography-48);
-      line-height: var(--line-height-typography-48);
+    .action-banner {
+      h2 {
+        font-size: var(--font-size-typography-48);
+        line-height: var(--line-height-typography-48);
+      }
+
+      .button-group {
+        justify-content: center;
+      }
     }
   }
 
@@ -234,6 +253,16 @@
 
     &__panel {
       padding: var(--dimension-spacing-scale-xl);
+    }
+
+    .block-intro h2 {
+      font-size: var(--font-size-typography-44);
+      line-height: var(--line-height-typography-48);
+    }
+
+    .stats-list dt {
+      font-size: var(--font-size-typography-56);
+      line-height: var(--line-height-typography-58);
     }
   }
 }

@@ -34,7 +34,7 @@
     }
 
     h1 {
-      font-family: var(--font-family-typography-baikal-ultra-expanded);
+      font-family: var(--font-family-typography-baikal-expanded);
       font-size: var(--font-size-typography-56);
       font-weight: 500;
       line-height: var(--line-height-typography-60);
@@ -42,7 +42,6 @@
     }
 
     em {
-      font-family: var(--font-family-typography-baikal-expanded);
       font-style: normal;
     }
   }
@@ -52,17 +51,37 @@
 
     h2 {
       max-width: 1080px;
-      font-family: var(--font-family-typography-baikal-expanded);
       font-size: var(--font-size-typography-40);
       line-height: var(--line-height-typography-48);
     }
   }
 
-  .block-intro h2,
-  .media-text h2,
-  .action-banner h2,
-  .stats-list dt {
-    font-family: var(--font-family-typography-baikal-ultra-expanded);
+  .work-grid-block .block-intro {
+    display: block;
+
+    h2 {
+      max-width: 100%;
+    }
+  }
+
+  .capabilities {
+    .block-intro p {
+      font-size: var(--font-size-typography-18);
+      line-height: var(--line-height-typography-24);
+    }
+
+    &__items > p {
+      font-family: var(--font-family-typography-baikal-normal);
+      font-size: var(--font-size-typography-34);
+      line-height: var(--line-height-typography-42);
+    }
+  }
+
+  .logo-grid-block {
+    .block-intro p {
+      font-size: var(--font-size-typography-18);
+      line-height: var(--line-height-typography-24);
+    }
   }
 
   .block-intro h2,
@@ -72,7 +91,6 @@
   }
 
   .work-card h3 {
-    font-family: var(--font-family-typography-baikal-expanded);
     font-size: var(--font-size-typography-24);
     line-height: var(--line-height-typography-32);
   }
@@ -82,12 +100,24 @@
     line-height: var(--line-height-typography-76);
   }
 
-  .network-stats .block-intro h2 {
-    line-height: var(--line-height-typography-60);
-  }
+  .network-stats {
+    .block-intro{
+      h2 {
+        line-height: var(--line-height-typography-60);
+      }
+      
+      p {
+        font-size: var(--font-size-typography-18);
+        line-height: var(--line-height-typography-24);
+      }
+    }
 
-  .capabilities--list {
-    color: #fff;
+    .stats-list {
+      dd {
+        font-size: var(--font-size-typography-20);
+        line-height: var(--line-height-typography-28);
+      }
+    }
   }
 
   .media-text img {
@@ -95,14 +125,15 @@
   }
 
   .media-text h2 {
-    font-family: var(--font-family-typography-baikal-expanded);
     font-size: var(--font-size-typography-34);
     line-height: var(--line-height-typography-42);
+    font-weight: 400;
   }
 
   .action-banner--centered h2 {
-    font-size: var(--font-size-typography-48);
-    line-height: var(--line-height-typography-52);
+    font-size: var(--font-size-typography-56);
+    line-height: var(--line-height-typography-60);
+    font-weight: 400;
   }
 }
 
@@ -141,9 +172,8 @@
       }
 
       h1 {
-        font-family: var(--font-family-typography-baikal-expanded);
-        font-size: var(--font-size-typography-36);
-        line-height: var(--line-height-typography-44);
+        font-size: var(--font-size-typography-24);
+        line-height: var(--line-height-typography-32);
       }
     }
 
@@ -175,14 +205,35 @@
       line-height: var(--line-height-typography-52);
     }
 
+    .network-stats .stats-list dd {
+      font-size: var(--font-size-typography-18);
+      line-height: var(--line-height-typography-26);
+    }
+
+    .capabilities__items > p {
+      font-size: var(--font-size-typography-18);
+      line-height: var(--line-height-typography-26);
+      padding: var(--dimension-spacing-scale-xl) var(--dimension-spacing-scale-md);
+    }
+
     .media-text h2 {
       font-size: var(--font-size-typography-36);
       line-height: var(--line-height-typography-44);
     }
 
-    .action-banner--centered h2 {
-      font-size: var(--font-size-typography-32);
-      line-height: var(--line-height-typography-40);
+    .action-banner--centered {
+       h2 {
+        font-size: var(--font-size-typography-32);
+        line-height: var(--line-height-typography-40);
+      }
+
+      .button-group {
+        
+      }
+
+      .button-link {
+        width: 100%;
+      }
     }
   }
 }

@@ -28,7 +28,7 @@ function failMissingApp(): never {
 }
 
 function indexPage(): string {
-  return `<main class="index-page"><div><p>Havas Network</p><h1>One token package.<br />Three distinct brands.</h1><nav aria-label="Brand landing pages"><a href="/creative">Havas Creative <span>→</span></a><a href="/cx">Havas CX <span>→</span></a><a href="/health">Havas Health <span>→</span></a></nav></div></main>`;
+  return `<main class="index-page"><div><p>Havas Network</p><h1>One token package.<br />Three distinct brands.</h1><nav aria-label="Brand landing pages"><a href="/creative">Havas Creative <span>→</span></a><a href="/cx">Havas CX <span>→</span></a></nav></div></main>`;
 }
 
 function render(): void {
